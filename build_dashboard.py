@@ -116,7 +116,7 @@ def build(data, source="Yahoo Finance (live)", min_cap=10_000_000_000):
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>SEPA+VCP India Screener \u2014 {today_str}</title>
-<meta name="description" content="Minervini SEPA + VCP Indian stock screener (NSE) with stage analysis, candlestick charts, and fundamental data. Updated daily.">
+<meta name="description" content="Minervini SEPA + VCP Indian stock screener (NSE and BSE) with stage analysis, candlestick charts, and fundamental data. Updated daily.">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <style>
 /* \u2500\u2500 Reset \u2500\u2500 */
@@ -333,7 +333,7 @@ footer{background:#040710;border-top:1px solid var(--border);padding:18px 24px;t
 
 <div class="hero">
   <h1>India Stock Screener<br><span>SEPA &middot; VCP &middot; Minervini Stages</span></h1>
-  <p>Minervini's Stage 2 Trend Template with VCP analysis, net revenue trend, EPS growth, Minervini lifecycle stage classification (1&ndash;4), and 60-day candlestick charts &mdash; applied to every NSE-listed stock over {cap_str} market cap.</p>
+  <p>Minervini's Stage 2 Trend Template with VCP analysis, net revenue trend, EPS growth, Minervini lifecycle stage classification (1&ndash;4), and 60-day candlestick charts &mdash; applied to every NSE- and BSE-listed company over {cap_str} market cap (one listing per company, NSE preferred).</p>
   <div class="hero-stats">
     <div class="hs"><div class="hs-n" style="color:var(--green)">{len(breakouts)}</div><div class="hs-l">Breakouts</div></div>
     <div class="hs"><div class="hs-n" style="color:var(--blue)">{len(pivots)}</div><div class="hs-l">Near Pivot</div></div>
@@ -901,7 +901,7 @@ function row(r,i){
   }
   return '<tr class="main-row" onclick="tog('+i+')" id="mr'+i+'">'+
     '<td style="color:#253550;font-size:10px">'+(i+1)+'</td>'+
-    '<td><div class="tkr">'+r.ticker+(r.ipo?'<span style="font-size:8px;font-weight:800;color:#a78bfa;border:1px solid #a78bfa66;background:#a78bfa14;border-radius:3px;padding:0 3px;margin-left:5px;vertical-align:middle" title="Listed '+r.listDate+' - '+r.sessions+' sessions">IPO</span>':'')+'</div><div class="co" title="'+r.name+'">'+r.name+'</div></td>'+
+    '<td><div class="tkr">'+r.ticker+(r.exchange==='BSE'?'<span style="font-size:8px;font-weight:800;color:#38bdf8;border:1px solid #38bdf866;background:#38bdf814;border-radius:3px;padding:0 3px;margin-left:5px;vertical-align:middle" title="BSE-only listing">BSE</span>':'')+(r.ipo?'<span style="font-size:8px;font-weight:800;color:#a78bfa;border:1px solid #a78bfa66;background:#a78bfa14;border-radius:3px;padding:0 3px;margin-left:5px;vertical-align:middle" title="Listed '+r.listDate+' - '+r.sessions+' sessions">IPO</span>':'')+'</div><div class="co" title="'+r.name+'">'+r.name+'</div></td>'+
     '<td>'+stageBdg+'</td>'+
     '<td>'+bdg+'</td>'+
     '<td><div style="display:flex;align-items:center;gap:3px"><div class="pips">'+ps+'</div><span style="font-size:10px;color:var(--muted)">'+sc+'</span></div></td>'+

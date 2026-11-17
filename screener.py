@@ -26,57 +26,109 @@ UNIVERSE_META = {}
 
 def get_all_india_tickers():
     """
-    Ticker universe: every NSE-listed equity at or above MIN_MARKET_CAP
-    (Rs 1,000 crore by default), in Yahoo format (RELIANCE.NS).
+    Ticker universe: every NSE- or BSE-listed company at or above
+    MIN_MARKET_CAP (Rs 1,000 crore by default), one listing per company.
 
-    Primary source: Yahoo Finance equity screener (region=in, exchange=NSE,
-    market cap filter), paged 250 at a time.
+    Yahoo's equity screener is queried for NSE and for BSE. It sometimes drops
+    a company's NSE line (no market cap) while still carrying its BSE line, so
+    the two are merged: a company is kept once, on NSE (RELIANCE.NS) when it
+    trades there - checked against NSE's official equity list - and otherwise
+    on BSE (e.g. 500325.BO). REITs and InvITs are excluded (trusts, not
+    companies).
+
     Fallback: data/india_universe.txt, a committed snapshot of the universe.
-
     Never returns [] silently: an empty universe raises so the run fails
     loudly instead of publishing an empty dashboard.
     """
-    def _from_yahoo():
+    import re
+    def _norm(n):
+        n = (n or "").lower()
+        n = re.sub(r"\b(limited|ltd|the|and|&|india|co|company|corporation|corp)\b", " ", n)
+        return re.sub(r"[^a-z0-9]", "", n)
+
+    def _excluded(name):
+        n = (name or "").lower()
+        return (not n) or "reit" in n or "invit" in n or n.endswith(" trust") or " trust " in n
+
+    def _screen(exchange):
         from yfinance import EquityQuery as Q
-        q = Q("and", [Q("eq", ["region", "in"]), Q("is-in", ["exchange", "NSI"]),
+        q = Q("and", [Q("eq", ["region", "in"]), Q("is-in", ["exchange", exchange]),
                       Q("gte", ["intradaymarketcap", MIN_MARKET_CAP])])
-        tickers, offset, total = [], 0, None
+        out, offset, total = [], 0, None
         while True:
             for attempt in range(3):
                 try:
                     res = yf.screen(q, size=250, offset=offset,
                                     sortField="intradaymarketcap", sortAsc=False)
                     break
-                except Exception as e:
+                except Exception:
                     if attempt == 2: raise
                     time.sleep(3 * (attempt + 1))
             quotes = res.get("quotes") or []
             total = res.get("total", total)
-            for x in quotes:
-                sym = (x.get("symbol") or "").strip().upper()
-                if not sym.endswith(".NS") or x.get("quoteType") != "EQUITY":
-                    continue
-                cap = float(x.get("marketCap") or 0)
-                if cap < MIN_MARKET_CAP:
-                    continue
-                tickers.append(sym)
-                UNIVERSE_META[sym] = {"name": x.get("longName") or x.get("shortName") or "",
-                                      "sector": "", "mktcap": cap}
+            out += [x for x in quotes if x.get("quoteType") == "EQUITY"
+                    and float(x.get("marketCap") or 0) >= MIN_MARKET_CAP]
             offset += 250
-            if not quotes or (total is not None and offset >= total) or offset > 5000:
+            if not quotes or (total is not None and offset >= total) or offset > 6000:
                 break
             time.sleep(1)
-        print(f"Yahoo screener: {len(tickers)} NSE stocks at or above "
-              f"Rs {MIN_MARKET_CAP/1e7:,.0f} crore (reported total {total})")
-        if len(tickers) < 200:
-            raise ValueError(f"only {len(tickers)} tickers - screener blocked or changed")
-        return sorted(set(tickers))
+        print(f"Yahoo screener {exchange}: {len(out)} equities at or above "
+              f"Rs {MIN_MARKET_CAP/1e7:,.0f} crore")
+        return out
+
+    def _nse_symbols():
+        try:
+            resp = requests.get("https://archives.nseindia.com/content/equities/EQUITY_L.csv",
+                                timeout=30, headers={"User-Agent": "Mozilla/5.0"})
+            resp.raise_for_status()
+            syms = {l.split(",")[0].strip().upper() for l in resp.text.splitlines()[1:] if "," in l}
+            if len(syms) > 1000:
+                print(f"NSE equity list: {len(syms)} symbols")
+                return syms
+        except Exception as e:
+            print(f"NSE equity list unavailable ({type(e).__name__}); BSE-only names stay on BSE")
+        return set()
+
+    def _from_yahoo():
+        nse_q, bse_q, nse_list = _screen("NSI"), _screen("BSE"), _nse_symbols()
+        chosen, names = {}, set()
+        def _add(sym, x):
+            name = x.get("longName") or x.get("shortName") or ""
+            if _excluded(name):
+                return
+            key = _norm(name)
+            if sym in chosen or (key and key in names):
+                return
+            chosen[sym] = {"name": name, "sector": "", "mktcap": float(x.get("marketCap") or 0)}
+            if key: names.add(key)
+        for x in nse_q:
+            sym = (x.get("symbol") or "").upper()
+            if sym.endswith(".NS"):
+                _add(sym, x)
+        added_bse = moved_nse = 0
+        for x in bse_q:
+            sym = (x.get("symbol") or "").upper()
+            if not sym.endswith(".BO"):
+                continue
+            base = sym[:-3]
+            if base + ".NS" in chosen:
+                continue
+            if base in nse_list:                 # trades on NSE: use the NSE line
+                before = len(chosen); _add(base + ".NS", x); moved_nse += len(chosen) - before
+            else:
+                before = len(chosen); _add(sym, x); added_bse += len(chosen) - before
+        print(f"Merged universe: {len(chosen)} companies "
+              f"({moved_nse} NSE names recovered via BSE data, {added_bse} BSE-only)")
+        if len(chosen) < 300:
+            raise ValueError(f"only {len(chosen)} tickers - screener blocked or changed")
+        UNIVERSE_META.update(chosen)
+        return sorted(chosen)
 
     def _from_snapshot():
         with open(FALLBACK_FILE, "r", encoding="utf-8") as f:
             return sorted({l.strip().upper() for l in f if l.strip() and not l.startswith("#")})
 
-    for label, fn in (("Yahoo screener", _from_yahoo),
+    for label, fn in (("Yahoo screener (NSE + BSE)", _from_yahoo),
                       ("committed snapshot", _from_snapshot)):
         try:
             tickers = fn()
@@ -829,7 +881,7 @@ def enrich_stock(r):
     return r
 
 def fetch_all():
-    print(f"Fetching price history for {len(TICKERS)} NSE stocks in batches...")
+    print(f"Fetching price history for {len(TICKERS)} NSE/BSE stocks in batches...")
 
     # Step 1: batch download price history (fast — one request per 50 stocks)
     BATCH = 50
@@ -884,7 +936,8 @@ if __name__ == "__main__":
     print(f"SEPA+VCP India Screener - {today_ist()} (IST)")
     data = fetch_all()
     for r in data:   # show NSE symbols without Yahoo's .NS suffix
-        r["ticker"] = r["ticker"].removesuffix(".NS")
+        r["exchange"] = "BSE" if r["ticker"].endswith(".BO") else "NSE"
+        r["ticker"] = r["ticker"].removesuffix(".NS").removesuffix(".BO")
     b = sum(1 for r in data if r['status'] == 'breakout')
     p = sum(1 for r in data if r['status'] == 'near-pivot')
     w = sum(1 for r in data if r['status'] == 'watch')
