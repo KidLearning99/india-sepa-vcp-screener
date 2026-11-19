@@ -3,77 +3,1756 @@
   "updated": "2026-11-19",
   "stocks": {
     "ALICON": {
-      "checked": "2026-11-19", "n": 1, "rating": "buy", "tMean": 1391, "tLow": null, "tHigh": null, "asOf": "2025-07",
+      "checked": "2026-11-19",
+      "n": 1,
+      "rating": "buy",
+      "tMean": 1391,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": "2025-07",
       "brokers": "S&P Global consensus (1 analyst); earlier Asit C Mehta (Accumulate)",
       "note": "Only one analyst covers it. Stockopedia shows a slightly different consensus target of 1,465, so treat the target as rough.",
       "sources": [
-        {"name": "INDmoney (S&P Global)", "url": "https://indmoney.com/stocks/alicon-castalloy-ltd-share-price"},
-        {"name": "Trendlyne", "url": "https://trendlyne.com/equity/consensus-estimates/56/ALICON/alicon-castalloy-ltd/"},
-        {"name": "Stockopedia", "url": "https://www.stockopedia.com/share-prices/alicon-castalloy-NSI:ALICON/"}
+        {
+          "name": "INDmoney (S&P Global)",
+          "url": "https://indmoney.com/stocks/alicon-castalloy-ltd-share-price"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/equity/consensus-estimates/56/ALICON/alicon-castalloy-ltd/"
+        },
+        {
+          "name": "Stockopedia",
+          "url": "https://www.stockopedia.com/share-prices/alicon-castalloy-NSI:ALICON/"
+        }
       ]
     },
     "SGFIN": {
-      "checked": "2026-11-19", "n": 1, "rating": "buy", "tMean": 783, "tLow": 783, "tHigh": 783, "asOf": null,
+      "checked": "2026-11-19",
+      "n": 1,
+      "rating": "buy",
+      "tMean": 783,
+      "tLow": 783,
+      "tHigh": 783,
+      "asOf": null,
       "brokers": "Nirmal Bang (monthly pick)",
       "note": "TradingView shows one analyst with a 783 target. Nirmal Bang's monthly-pick report values it higher, at 916.",
       "sources": [
-        {"name": "TradingView", "url": "https://in.tradingview.com/symbols/BSE-SGFIN/forecast"},
-        {"name": "Nirmal Bang report", "url": "https://www.nirmalbang.com/Upload/SG-Finserve----Montly-Pick.pdf"}
+        {
+          "name": "TradingView",
+          "url": "https://in.tradingview.com/symbols/BSE-SGFIN/forecast"
+        },
+        {
+          "name": "Nirmal Bang report",
+          "url": "https://www.nirmalbang.com/Upload/SG-Finserve----Montly-Pick.pdf"
+        }
       ]
     },
     "STYLEBAAZA": {
-      "checked": "2026-11-19", "n": 2, "rating": "buy", "tMean": 436, "tLow": null, "tHigh": null, "asOf": "2026-10",
+      "checked": "2026-11-19",
+      "n": 2,
+      "rating": "buy",
+      "tMean": 436,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": "2026-10",
       "brokers": "JM Financial and others",
       "note": "Sharpely lists one Buy with a 430 target; TradingView shows 2 analysts averaging 436. Stockopedia rates the consensus Strong Buy.",
       "sources": [
-        {"name": "Sharpely", "url": "https://sharpely.in/stocks/stylebaaza/forecast"},
-        {"name": "TradingView", "url": "https://www.tradingview.com/symbols/NSE-STYLEBAAZA/forecast"},
-        {"name": "Stockopedia", "url": "https://www.stockopedia.com/share-prices/baazar-style-retail-NSI:STYLEBAAZA"}
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/stylebaaza/forecast"
+        },
+        {
+          "name": "TradingView",
+          "url": "https://www.tradingview.com/symbols/NSE-STYLEBAAZA/forecast"
+        },
+        {
+          "name": "Stockopedia",
+          "url": "https://www.stockopedia.com/share-prices/baazar-style-retail-NSI:STYLEBAAZA"
+        }
       ]
     },
     "ESAFSFB": {
-      "checked": "2026-11-19", "n": 0,
+      "checked": "2026-11-19",
+      "n": 0,
       "sources": [
-        {"name": "Sharpely", "url": "https://sharpely.in/stocks/esafsfb/forecast"},
-        {"name": "Alpha Spread", "url": "https://www.alphaspread.com/security/bse/544020/analyst-estimates"},
-        {"name": "Stockopedia", "url": "https://stockopedia.com/share-prices/esaf-small-finance-bank-NSI:ESAFSFB"}
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/esafsfb/forecast"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/bse/544020/analyst-estimates"
+        },
+        {
+          "name": "Stockopedia",
+          "url": "https://stockopedia.com/share-prices/esaf-small-finance-bank-NSI:ESAFSFB"
+        }
       ]
     },
     "FILATEX": {
-      "checked": "2026-11-19", "n": 0,
+      "checked": "2026-11-19",
+      "n": 0,
       "note": "Stockopedia still lists an old consensus target of 52, far below today's price, so it is not used.",
       "sources": [
-        {"name": "Sharpely", "url": "https://sharpely.in/stocks/filatex/forecast"},
-        {"name": "Alpha Spread", "url": "https://www.alphaspread.com/security/nse/filatex/analyst-estimates"}
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/filatex/forecast"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/nse/filatex/analyst-estimates"
+        }
       ]
     },
     "GHCLTEXTIL": {
-      "checked": "2026-11-19", "n": 0,
+      "checked": "2026-11-19",
+      "n": 0,
       "sources": [
-        {"name": "Alpha Spread", "url": "https://www.alphaspread.com/security/nse/ghcltextil/analyst-estimates"},
-        {"name": "TipRanks", "url": "https://www.tipranks.com/stocks/in:ghcltextil/forecast"}
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/nse/ghcltextil/analyst-estimates"
+        },
+        {
+          "name": "TipRanks",
+          "url": "https://www.tipranks.com/stocks/in:ghcltextil/forecast"
+        }
       ]
     },
     "HINDOILEXP": {
-      "checked": "2026-11-19", "n": 0,
+      "checked": "2026-11-19",
+      "n": 0,
       "note": "Stockopedia shows a Buy consensus but no price target. The last broker report found (ICICI Direct, June 2023, target 260) is too old to use.",
       "sources": [
-        {"name": "Sharpely", "url": "https://sharpely.in/stocks/hindoilexp/forecast"},
-        {"name": "Alpha Spread", "url": "https://alphaspread.com/security/nse/hindoilexp/analyst-estimates"},
-        {"name": "Stockopedia", "url": "https://www.stockopedia.com/share-prices/hindustan-oil-exploration-NSI:HINDOILEXP"}
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/hindoilexp/forecast"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://alphaspread.com/security/nse/hindoilexp/analyst-estimates"
+        },
+        {
+          "name": "Stockopedia",
+          "url": "https://www.stockopedia.com/share-prices/hindustan-oil-exploration-NSI:HINDOILEXP"
+        }
       ]
     },
     "NRL": {
-      "checked": "2026-11-19", "n": 0,
+      "checked": "2026-11-19",
+      "n": 0,
       "sources": [
-        {"name": "Alpha Spread", "url": "https://www.alphaspread.com/security/nse/nrl/analyst-estimates"},
-        {"name": "Sharpely", "url": "https://sharpely.in/stocks/nrl/forecast"}
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/nse/nrl/analyst-estimates"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/nrl/forecast"
+        }
       ]
     },
     "ZELIO": {
-      "checked": "2026-11-19", "n": 0,
+      "checked": "2026-11-19",
+      "n": 0,
       "sources": [
-        {"name": "Sharpely", "url": "https://sharpely.in/stocks/544563-bom/forecast"}
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/544563-bom/forecast"
+        }
+      ]
+    },
+    "AERPACE": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No brokerage ratings or price targets found for this BSE small-cap.",
+      "sources": [
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/aerpace/forecast"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/bse/534733/analyst-estimates"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/post/ICVLSTEELS/3941/aerpace-industries-ltd/"
+        }
+      ]
+    },
+    "GREAVESCOT": {
+      "checked": "2026-11-19",
+      "n": 1,
+      "rating": "buy",
+      "tMean": 249,
+      "tLow": 249,
+      "tHigh": 249,
+      "asOf": "2026-08",
+      "brokers": "Arihant Capital",
+      "note": "Only current broker view found is Arihant Capital's Buy after Q1FY27 results with a Rs 249 target, close to today's price. Alpha Spread shows an older, lower target range (about Rs 182-202) of unclear date.",
+      "sources": [
+        {
+          "name": "Arihant Capital (Q1FY27 result note)",
+          "url": "https://arihantresearch.arihantcapital.com/Mumbai_Research/Greaves_Cotton_Result_Q1FY27.pdf"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/nse/greavescot/analyst-estimates"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://client.trendlyne.com/equity/consensus-estimates/492/GREAVESCOT/greaves-cotton-ltd"
+        }
+      ]
+    },
+    "WELSPUNLIV": {
+      "checked": "2026-11-19",
+      "n": 10,
+      "rating": "strong_buy",
+      "tMean": 229,
+      "tLow": 156,
+      "tHigh": 285,
+      "asOf": "2026-11",
+      "brokers": "Jefferies",
+      "note": "Trendlyne consensus of about Rs 229 from 10 analysts sits below the current price after a post-Q2 rally; S&P Global data (12 analysts, mostly Strong Buy) gives a Rs 156-285 range. Jefferies kept Buy with a Rs 260 target in early November.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/equity/consensus-estimates/1518/WELSPUNLIV/welspun-living-ltd/"
+        },
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/WELSPUNLIV/forecast/"
+        },
+        {
+          "name": "Business Standard",
+          "url": "https://www.business-standard.com/s/2gAhVCW"
+        }
+      ]
+    },
+    "ABDL": {
+      "checked": "2026-11-19",
+      "n": 12,
+      "rating": "buy",
+      "tMean": 800.33,
+      "tLow": 685,
+      "tHigh": 900,
+      "asOf": "2026-10",
+      "brokers": "Jefferies",
+      "note": "Twelve analysts polled by S&P Global lean Buy (one Sell), with an average target only slightly above the current price. Jefferies reiterated Buy at Rs 820 at the end of October.",
+      "sources": [
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/ABDL/forecast/"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/equity/consensus-estimates/2365668/ABDL/allied-blenders-distillers-ltd"
+        }
+      ]
+    },
+    "ARIS": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "Only IPO subscribe notes from June 2025 (no price targets) were found; no current broker coverage.",
+      "sources": [
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/arisinfra/forecast"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/stock/2938268/ARISINFRA/arisinfra-solutions-ltd"
+        }
+      ]
+    },
+    "LUMAXTECH": {
+      "checked": "2026-11-19",
+      "n": 5,
+      "rating": "strong_buy",
+      "tMean": 2457,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": "2026-11",
+      "brokers": "ICICI Direct, SBI Securities",
+      "note": "Five analysts cover the stock; Trendlyne's consensus target is about Rs 2,457, a little above the current price. S&P Global data from August showed 3 Strong Buy and 2 Buy with a lower Rs 2,035-2,560 range.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/equity/consensus-estimates/803/LUMAXTECH/lumax-auto-technologies-ltd/"
+        },
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/LUMAXTECH/forecast/"
+        },
+        {
+          "name": "Pulse (SBI Securities call)",
+          "url": "https://www.pulse.bot/investment-banking/news/brokers-call-lumax-auto-tech-buy-5bc36507-d5b6-42f8-a972-61836ced51b0"
+        }
+      ]
+    },
+    "PHOENIXLTD": {
+      "checked": "2026-11-19",
+      "n": 22,
+      "rating": "buy",
+      "tMean": 2160,
+      "tLow": 1700,
+      "tHigh": 2495,
+      "asOf": "2026-11",
+      "brokers": "ICICI Direct, Motilal Oswal, Emkay, Jefferies",
+      "note": "Broad coverage with a Buy consensus, but the Trendlyne average target of about Rs 2,160 is slightly below the current price. Recent post-Q2 calls from ICICI Direct, Motilal Oswal and Emkay are Buy at Rs 2,280-2,390; the low/high range is from S&P Global data as of September.",
+      "sources": [
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/1036/PHOENIXLTD/phoenix-mills-ltd"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/1036/PHOENIXLTD/phoenix-mills-ltd"
+        },
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/PHOENIXLTD/forecast/"
+        }
+      ]
+    },
+    "RPEL": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No broker ratings or price targets found.",
+      "sources": [
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/rpel/forecast"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/bse/539837/analyst-estimates"
+        }
+      ]
+    },
+    "SPORTKING": {
+      "checked": "2026-11-19",
+      "n": 1,
+      "rating": "buy",
+      "tMean": 273,
+      "tLow": 273,
+      "tHigh": 273,
+      "asOf": "2026-08",
+      "brokers": "ICICI Direct",
+      "note": "Single broker view: ICICI Direct rated it Buy with a Rs 273 target after Q1FY27 results, roughly 24% above the current price.",
+      "sources": [
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/sportking/forecast"
+        },
+        {
+          "name": "DSIJ (ICICI Direct report)",
+          "url": "https://insights.dsij.in/markets/reports/report-details/sportking-india-ltd/44964"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/equity/consensus-estimates/4220/SPORTKING/sportking-india-ltd/"
+        }
+      ]
+    },
+    "IKIO": {
+      "checked": "2026-11-19",
+      "n": 1,
+      "rating": null,
+      "tMean": 282,
+      "tLow": 282,
+      "tHigh": 282,
+      "asOf": null,
+      "note": "TradingView shows one analyst with a Rs 282 one-year target issued within the last three months, but the broker and rating are not disclosed. Sharpely and TipRanks show no human analyst coverage (TipRanks entries are AI models only).",
+      "sources": [
+        {
+          "name": "TradingView",
+          "url": "https://in.tradingview.com/symbols/NSE-IKIO/forecast"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/ikio/forecast"
+        },
+        {
+          "name": "TipRanks",
+          "url": "https://www.tipranks.com/stocks/in:ikio/forecast"
+        }
+      ]
+    },
+    "TASTYBITE": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No broker ratings or price targets found.",
+      "sources": [
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/nse/tastybite/analyst-estimates"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/equity/consensus-estimates/2792/TASTYBITE/tasty-bite-eatables-ltd"
+        }
+      ]
+    },
+    "MWL": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No broker ratings or price targets found.",
+      "sources": [
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/mwl/forecast"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/post/MWL/962486/mangalam-worldwide-ltd"
+        }
+      ]
+    },
+    "GCSL": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No brokerage coverage turned up. Trendlyne lists no research reports, and Sharpely shows no active ratings or targets.",
+      "sources": [
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/gcsl/forecast"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/post/GCSL/608074/gretex-corporate-services-ltd/"
+        }
+      ]
+    },
+    "NITINSPIN": {
+      "checked": "2026-11-19",
+      "n": 4,
+      "rating": "buy",
+      "tMean": 910,
+      "tLow": 740,
+      "tHigh": 1215,
+      "asOf": "2026-11",
+      "brokers": "Emkay and others",
+      "note": "All views are positive. Emkay rated it Buy with an 800 target on 2 Nov 2026. The aggregators disagree on the average: TradingView shows 910 from 4 analysts, Trendlyne about 882, and Sharpely 842 from 3 analysts, all rated Strong Buy on Sharpely.",
+      "sources": [
+        {
+          "name": "TradingView",
+          "url": "https://in.tradingview.com/symbols/NSE-NITINSPIN/forecast-price-target/"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/stock/948/NITINSPIN/nitin-spinners-ltd"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/nitinspin/forecast"
+        }
+      ]
+    },
+    "ORIENTHOT": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No current analyst targets were found. Alpha Spread has no price targets, and TipRanks lists only AI-model entries, which are excluded.",
+      "sources": [
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/nse/orienthot/analyst-estimates"
+        },
+        {
+          "name": "TipRanks",
+          "url": "https://www.tipranks.com/stocks/in:orienthot/forecast"
+        }
+      ]
+    },
+    "SHREEJISPG": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "The only research found was IPO notes from Aug 2025 (Hem Securities, Deven Choksey, Ventura), and none had price targets. Sharpely shows no active coverage.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/stock/3214018/SHREEJISPG/shreeji-shipping-global-ltd"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/shreejispg/forecast"
+        }
+      ]
+    },
+    "SSWL": {
+      "checked": "2026-11-19",
+      "n": 1,
+      "rating": null,
+      "tMean": 616,
+      "tLow": 616,
+      "tHigh": 616,
+      "asOf": "2026-11",
+      "note": "Trendlyne and TradingView each show one current target of 616 but do not label the rating, so it is left blank. Older Buy calls from Axis Direct and ICICI Direct (235-330, up to Jul 2026) sit far below today's price and look stale.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/equity/consensus-estimates/1290/SSWL/steel-strips-wheels-ltd/"
+        },
+        {
+          "name": "TradingView",
+          "url": "https://www.tradingview.com/symbols/NSE-SSWL/forecast"
+        },
+        {
+          "name": "Trendlyne reports",
+          "url": "https://trendlyne.com/research-reports/stock/1290/SSWL/steel-strips-wheels-ltd"
+        }
+      ]
+    },
+    "TFCILTD": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No current coverage was found. Trendlyne's broker reports are from 2016-2019, and TipRanks shows no human analysts. Alpha Spread's average target of 70 is undated and well under half the current price, so it is treated as stale.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/post/TFCILTD/1381/tourism-finance-corporation-of-india-ltd"
+        },
+        {
+          "name": "TipRanks",
+          "url": "https://www.tipranks.com/stocks/in:tfciltd/forecast"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/nse/tfciltd/analyst-estimates"
+        }
+      ]
+    },
+    "AARTIPHARM": {
+      "checked": "2026-11-19",
+      "n": 1,
+      "rating": "buy",
+      "tMean": 1035,
+      "tLow": 1035,
+      "tHigh": 1035,
+      "asOf": "2026-11",
+      "brokers": "ICICI Direct",
+      "note": "ICICI Direct is the only active broker. It moved back to Buy with a 1035 target on 1 Nov 2026, after a Hold at 740 in May 2026. Sharpely still shows that older Hold at 740.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/post/AARTIPHARM/1329646/aarti-pharmalabs-ltd/"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/aartipharm/forecast"
+        }
+      ]
+    },
+    "AAYUSHBULL": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No analyst coverage was found. Simply Wall St says no analysts cover the stock, and Trendlyne lists no research reports.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/post/16490968/140644/aayush-art-and-bullion-ltd/"
+        },
+        {
+          "name": "Simply Wall St",
+          "url": "https://simplywall.st/stocks/in/consumer-durables/bse-540718/aayush-art-and-bullion-shares"
+        }
+      ]
+    },
+    "ABCAPITAL": {
+      "checked": "2026-11-19",
+      "n": 14,
+      "rating": "strong_buy",
+      "tMean": 462.36,
+      "tLow": 390,
+      "tHigh": 506,
+      "asOf": "2026-11",
+      "note": "Coverage is broad and entirely positive. Sharpely counts 9 Strong Buy and 5 Buy with no Holds or Sells, and Trendlyne's 14-analyst consensus target of 463 is very close to Sharpely's average.",
+      "sources": [
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/abcapital/forecast"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/equity/consensus-estimates/61684/ABCAPITAL/aditya-birla-capital-ltd/"
+        }
+      ]
+    },
+    "AFCOM": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No brokerage ratings or targets were found on Sharpely or TipRanks.",
+      "sources": [
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/afcom/forecast"
+        },
+        {
+          "name": "TipRanks",
+          "url": "https://www.tipranks.com/stocks/in:afcom/forecast"
+        }
+      ]
+    },
+    "ALEMBICLTD": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No analyst coverage was found. Trendlyne has no research reports (only a user poll), and Alpha Spread has no price targets.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/post/ALEMBICLTD/55/alembic-ltd/"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/nse/alembicltd/analyst-estimates"
+        }
+      ]
+    },
+    "ANANDRATHI": {
+      "checked": "2026-11-19",
+      "n": 2,
+      "rating": "underperform",
+      "tMean": 1580,
+      "tLow": 1530,
+      "tHigh": 1630,
+      "asOf": "2026-10",
+      "brokers": "Motilal Oswal and one other",
+      "note": "The two covering analysts are split between Hold and Sell, so the rating is set between those two. Motilal Oswal repeated its Sell with a 1630 target on 13 Oct 2026, and both targets sit well below the current price.",
+      "sources": [
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/anandrathi/forecast"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/equity/consensus-estimates/747241/ANANDRATHI/anand-rathi-wealth-ltd/"
+        },
+        {
+          "name": "Investment Guru India",
+          "url": "https://investmentguruindia.com/newsdetail/sell-anand-rathi-wealth-ltd-for-the-target-rs-1-630-by-motilal-oswal-financial-services-ltd622945"
+        }
+      ]
+    },
+    "COSMOFIRST": {
+      "checked": "2026-11-19",
+      "n": 1,
+      "rating": "buy",
+      "tMean": 760,
+      "tLow": 760,
+      "tHigh": 760,
+      "asOf": "2026-01",
+      "brokers": "AUM Capital",
+      "note": "Only one current broker call: AUM Capital's Buy with a Rs 760 target from January 2026, which the stock has already passed. Other Trendlyne reports date from 2016-2017 and do not count.",
+      "sources": [
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/post/COSMOFIRST/286/cosmo-first-ltd/"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://alphaspread.com/security/nse/cosmofirst/summary"
+        }
+      ]
+    },
+    "CRAFTSMAN": {
+      "checked": "2026-11-19",
+      "n": 9,
+      "rating": "buy",
+      "tMean": 12008,
+      "tLow": 11000,
+      "tHigh": 13000,
+      "asOf": "2026-11",
+      "brokers": "Emkay, Motilal Oswal, ICICI Securities",
+      "note": "Nine analysts lean positive (5 Strong Buy, 2 Buy, 2 Hold). Emkay rated it Buy at Rs 12,400 after Q2 FY27 results in late October, while Motilal Oswal stayed Neutral in July.",
+      "sources": [
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/CRAFTSMAN/forecast/"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/445359/CRAFTSMAN/craftsman-automation-ltd"
+        }
+      ]
+    },
+    "DALMIASUG": {
+      "checked": "2026-11-19",
+      "n": 1,
+      "rating": "buy",
+      "tMean": 710,
+      "tLow": 710,
+      "tHigh": 710,
+      "asOf": "2026-09",
+      "brokers": "DAM Capital",
+      "note": "One active analyst: DAM Capital rated it Buy with a Rs 710 target in September 2026 and sees it as a main beneficiary of firmer sugar prices.",
+      "sources": [
+        {
+          "name": "Business Today",
+          "url": "https://www.businesstoday.in/markets/stocks/story/sugar-stocks-to-buy-balrampur-chini-dalmia-bharat-triveni-engineering-targets-552442-2026-09-01"
+        },
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/306/DALMIASUG/dalmia-bharat-sugar-and-industries-ltd/"
+        },
+        {
+          "name": "TradingView",
+          "url": "https://in.tradingview.com/symbols/BSE-DALMIASUG/forecast"
+        }
+      ]
+    },
+    "DCBBANK": {
+      "checked": "2026-11-19",
+      "n": 17,
+      "rating": "strong_buy",
+      "tMean": 233.53,
+      "tLow": 195,
+      "tHigh": 298,
+      "asOf": "2026-10",
+      "brokers": "ICICI Securities, Anand Rathi, Motilal Oswal, Axis Direct, IDBI Capital",
+      "note": "Coverage is almost entirely positive (16 Strong Buy, 1 Sell on S&P's September snapshot). After Q2 results in late October, brokers raised targets, e.g. Anand Rathi to Rs 312, ICICI Securities to Rs 270 and Motilal Oswal to Rs 245, so the average shown is probably a little low.",
+      "sources": [
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/DCBBANK/forecast/"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/311/DCBBANK/dcb-bank-ltd"
+        }
+      ]
+    },
+    "DELTACORP": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No current broker coverage or price targets found on the sites checked.",
+      "sources": [
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/deltacorp/forecast"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/bse/532848/analyst-estimates"
+        },
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/320/DELTACORP/delta-corp-ltd"
+        }
+      ]
+    },
+    "ENGINERSIN": {
+      "checked": "2026-11-19",
+      "n": 6,
+      "rating": "strong_buy",
+      "tMean": 299,
+      "tLow": 240,
+      "tHigh": 373,
+      "asOf": "2026-10",
+      "note": "Six analysts, five at Strong Buy and one at Hold. The share price has since moved above the average target of about Rs 299, so upside to consensus is gone.",
+      "sources": [
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/ENGINERSIN/forecast/"
+        },
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/380/ENGINERSIN/engineers-india-ltd/"
+        }
+      ]
+    },
+    "GNA": {
+      "checked": "2026-11-19",
+      "n": 1,
+      "rating": "buy",
+      "tMean": 870,
+      "tLow": 870,
+      "tHigh": 870,
+      "asOf": null,
+      "note": "Trendlyne and Sharpely both show a single analyst at Strong Buy with a Rs 870 target tied to FY27, but no date is given. TradingView shows an older single Buy at Rs 488. Named broker notes on Trendlyne stop in 2023.",
+      "sources": [
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/gna/forecast"
+        },
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/4710/GNA/gna-axles-ltd/"
+        },
+        {
+          "name": "TradingView",
+          "url": "https://se.tradingview.com/symbols/NSE-GNA/forecast"
+        }
+      ]
+    },
+    "KRISHANA": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No broker research reports or price targets found; Trendlyne lists zero reports and Alpha Spread has no targets.",
+      "sources": [
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/post/KRISHANA/87779/krishana-phoschem-ltd"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/nse/krishana/analyst-estimates"
+        }
+      ]
+    },
+    "LMW": {
+      "checked": "2026-11-19",
+      "n": 2,
+      "rating": "sell",
+      "tMean": 13672,
+      "tLow": 10265,
+      "tHigh": 17079,
+      "asOf": "2026-07",
+      "note": "Thin, negative coverage: one Hold and one Strong Sell, which gives a Sell consensus. Even the highest target is slightly below the current price.",
+      "sources": [
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/LMW/forecast/"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/785/LMW/lmw-ltd"
+        }
+      ]
+    },
+    "LODHA": {
+      "checked": "2026-11-19",
+      "n": 18,
+      "rating": "strong_buy",
+      "tMean": 1376.63,
+      "tLow": 1000,
+      "tHigh": 1615,
+      "asOf": "2026-11",
+      "brokers": "ICICI Direct, Emkay, Motilal Oswal, ICICI Securities, Jefferies",
+      "note": "Broadly bullish coverage, with every recent broker note at Buy. After Q2 results in early November, targets ranged from Rs 1,375 to Rs 1,450. The mean is Trendlyne's current consensus; the low/high range comes from S&P data.",
+      "sources": [
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/460813/LODHA/lodha-developers-ltd"
+        },
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/LODHA/forecast/"
+        }
+      ]
+    },
+    "NAZARA": {
+      "checked": "2026-11-19",
+      "n": 8,
+      "rating": "hold",
+      "tMean": 345.63,
+      "tLow": 215,
+      "tHigh": 410,
+      "asOf": "2026-10",
+      "brokers": "Prabhudas Lilladher, Choice",
+      "note": "Views are split (2 Strong Buy, 2 Buy, 2 Hold, 2 Sell), and S&P's consensus is Hold. Prabhudas Lilladher cut it to Hold with a Rs 396 target after Q2 FY27 in late October. The stock trades above the average target.",
+      "sources": [
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/nazara/forecast"
+        },
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/NAZARA/forecast/"
+        },
+        {
+          "name": "Prabhudas Lilladher report",
+          "url": "https://plindia.com/ResReport/NAZARA-28-10-26-PL.pdf"
+        }
+      ]
+    },
+    "NILKAMAL": {
+      "checked": "2026-11-19",
+      "n": 1,
+      "rating": "hold",
+      "tMean": 2217,
+      "tLow": 2217,
+      "tHigh": 2217,
+      "asOf": "2026-08",
+      "brokers": "IDBI Capital",
+      "note": "There is effectively one covering broker. IDBI Capital moved to Hold (Rs 1,753 target) in August 2026, and the aggregators now show a single undated Hold at Rs 2,217, roughly in line with the current price.",
+      "sources": [
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/nilkamal/forecast"
+        },
+        {
+          "name": "TradingView",
+          "url": "https://in.tradingview.com/symbols/NSE-NILKAMAL/forecast"
+        },
+        {
+          "name": "IDBI Capital report",
+          "url": "https://idbidirect.in/IDBIAdmin/Pdf/NILK_RR_03082026-04-August-2026-717785065.pdf"
+        }
+      ]
+    },
+    "PRIMESECU": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No brokerage research reports or price targets found for Prime Securities on Trendlyne or Alpha Spread.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/stock/1073/PRIMESECU/prime-securities-ltd/"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/nse/primesecu/analyst-estimates"
+        }
+      ]
+    },
+    "RACLGEAR": {
+      "checked": "2026-11-19",
+      "n": 1,
+      "rating": "buy",
+      "tMean": 2000,
+      "tLow": 2000,
+      "tHigh": 2000,
+      "asOf": "2026-08",
+      "brokers": "ICICI Direct",
+      "note": "Only ICICI Direct covers the stock; it reiterated Buy in Aug 2026 and raised its target to Rs 2,000 after earlier targets of 1,400 and 1,615 were reached.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/stock/2830/RACLGEAR/racl-geartech-ltd"
+        }
+      ]
+    },
+    "RAYMOND": {
+      "checked": "2026-11-19",
+      "n": 2,
+      "rating": "hold",
+      "tMean": 973.5,
+      "tLow": 795,
+      "tHigh": 1152,
+      "asOf": "2026-11",
+      "brokers": "InCred Equities, Arihant Capital",
+      "note": "Newest view is InCred's Hold with a Rs 1,152 target (Nov 2026); Arihant's Buy at Rs 795 (Aug 2026) predates the aerospace-driven rally that roughly doubled the stock. S&P data on StockAnalysis shows a Strong Buy and Rs 1,240 average from 2 analysts, but it is unchanged since Aug 2025 and may be stale.",
+      "sources": [
+        {
+          "name": "InvestmentGuruIndia (InCred)",
+          "url": "https://investmentguruindia.com/newsdetail/hold-raymond-ltd-for-target-rs-1-152-by-incred-equities482744"
+        },
+        {
+          "name": "Arihant Capital",
+          "url": "https://arihantresearch.arihantcapital.com/Mumbai_Research/Raymond_Q1FY27_Result_update.pdf"
+        },
+        {
+          "name": "StockAnalysis",
+          "url": "https://stockanalysis.com/quote/bom/500330/forecast/"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/stock/1115/RAYMOND/raymond-ltd"
+        }
+      ]
+    },
+    "ROSSTECH": {
+      "checked": "2026-11-19",
+      "n": 1,
+      "rating": "buy",
+      "tMean": 1625,
+      "tLow": 1625,
+      "tHigh": 1625,
+      "asOf": "2026-11",
+      "brokers": "ICICI Direct",
+      "note": "ICICI Direct is the only broker covering it and reiterated Buy with a Rs 1,625 target in Nov 2026; the stock now trades close to that level.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/stock/2839785/ROSSTECH/rossell-techsys-ltd/"
+        }
+      ]
+    },
+    "SANGAMIND": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No current broker coverage; Trendlyne lists only Ajcon Global reports from 2013-2016. TipRanks shows only AI-model forecasts, which were not counted.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/post/SANGAMIND/1178/sangam-india-ltd"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/nse/sangamind/analyst-estimates"
+        },
+        {
+          "name": "TipRanks",
+          "url": "https://www.tipranks.com/stocks/in:sangamind/forecast"
+        }
+      ]
+    },
+    "SBC": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No brokerage reports or analyst targets found for SBC Exports on Trendlyne or Sharpely.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/post/SBC/149051/sbc-exports-ltd"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/sbc/forecast"
+        }
+      ]
+    },
+    "SOUTHBANK": {
+      "checked": "2026-11-19",
+      "n": 4,
+      "rating": "buy",
+      "tMean": 60.5,
+      "tLow": 52,
+      "tHigh": 66,
+      "asOf": "2026-10",
+      "brokers": "BOB Capital Markets, ICICI Securities, Anand Rathi, ICICI Direct",
+      "note": "All four brokers' latest calls are Buy; BOB Capital (Rs 66) and ICICI Securities (Rs 63) raised targets after Q2 FY27 results in Oct 2026. The stock already trades at about the average target.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/stock/1270/SOUTHBANK/south-indian-bank-ltd"
+        },
+        {
+          "name": "StockAnalysis",
+          "url": "https://stockanalysis.com/quote/nse/SOUTHBANK/forecast/"
+        }
+      ]
+    },
+    "SPECTRUM": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No analyst coverage found; Trendlyne shows only user poll votes, which were not counted, and Sharpely lists no recommendations.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/post/SPECTRUM/109636/spectrum-electrical-industries-ltd/"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/spectrum/forecast"
+        }
+      ]
+    },
+    "SUDEEPPHRM": {
+      "checked": "2026-11-19",
+      "n": 2,
+      "rating": "sell",
+      "tMean": 988,
+      "tLow": 976,
+      "tHigh": 1000,
+      "asOf": "2026-10",
+      "brokers": "ICICI Securities",
+      "note": "S&P data shows two analysts (one Hold, one Strong Sell), with the consensus labelled Sell and targets below the market price. ICICI Securities' newest Hold call (30 Oct 2026) has a Rs 1,100 target, which is also below the current price.",
+      "sources": [
+        {
+          "name": "StockAnalysis",
+          "url": "https://stockanalysis.com/quote/nse/SUDEEPPHRM/forecast/"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/stock/3335696/12541409/sudeep-pharma-ltd"
+        }
+      ]
+    },
+    "TANLA": {
+      "checked": "2026-11-19",
+      "n": 2,
+      "rating": "hold",
+      "tMean": 581.5,
+      "tLow": 423,
+      "tHigh": 740,
+      "asOf": "2026-07",
+      "brokers": "Geojit (older)",
+      "note": "S&P data has two analysts split between Strong Buy and Strong Sell, giving a Hold consensus; the stock has since rallied above the high target. Sharpely shows a single Strong Buy at Rs 800 (Oct), and Geojit's last Buy at Rs 641 dates from Dec 2025.",
+      "sources": [
+        {
+          "name": "StockAnalysis",
+          "url": "https://stockanalysis.com/quote/nse/TANLA/forecast/"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/tanla/forecast"
+        },
+        {
+          "name": "TipRanks",
+          "url": "https://www.tipranks.com/stocks/in:tanla/forecast"
+        }
+      ]
+    },
+    "TCPLPACK": {
+      "checked": "2026-11-19",
+      "n": 1,
+      "rating": "buy",
+      "tMean": 5270,
+      "tLow": 5270,
+      "tHigh": 5270,
+      "asOf": "2026-11",
+      "brokers": "InCred Equities",
+      "note": "InCred Equities kept an Add rating with a Rs 5,270 target in Nov 2026, citing new battery-related plans. Edelweiss's last Buy is from Nov 2024 and was too old to count.",
+      "sources": [
+        {
+          "name": "Analytics Insight",
+          "url": "https://www.analyticsinsight.net/news/tcpl-packaging-shares-get-rs-5270-target-on-new-battery-plans"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/stock/2936/TCPLPACK/tcpl-packaging-ltd"
+        }
+      ]
+    },
+    "VSSL": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No current coverage: the latest broker call is Ventura's Buy at Rs 280 from Mar 2025, which is too old to count. Alpha Spread lists no targets.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/stock/1501/VSSL/vardhman-special-steels-ltd"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/nse/vssl/analyst-estimates"
+        }
+      ]
+    },
+    "YASHHV": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "BSE SME-listed stock with no brokerage ratings or price targets on the sites checked.",
+      "sources": [
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/544310-bom/forecast"
+        },
+        {
+          "name": "StockAnalysis",
+          "url": "https://stockanalysis.com/quote/bom/544310/"
+        }
+      ]
+    },
+    "63MOONS": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No brokerage coverage found; TipRanks shows only AI-model forecasts, which were ignored.",
+      "sources": [
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/63moons/forecast"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/nse/63moons/analyst-estimates"
+        },
+        {
+          "name": "TipRanks",
+          "url": "https://www.tipranks.com/stocks/in:63moons/forecast"
+        }
+      ]
+    },
+    "AETHER": {
+      "checked": "2026-11-19",
+      "n": 7,
+      "rating": "buy",
+      "tMean": 1574,
+      "tLow": 1120,
+      "tHigh": 1900,
+      "asOf": "2026-11",
+      "brokers": "HDFC Securities (Add, TP 1617)",
+      "note": "Views are split: 4 of 7 analysts are Buy or Strong Buy, 1 is Hold and 2 are Sell, so Sharpely labels the consensus neutral. The average target is below the current price. HDFC Securities cut its target to 1,617 in late October and kept an Add rating.",
+      "sources": [
+        {
+          "name": "Simply Wall St via Webull (3 Nov 2026)",
+          "url": "https://www.webull.com/news/15856956999033856"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/aether/forecast"
+        },
+        {
+          "name": "HDFC Securities report Oct 2026",
+          "url": "https://www.hdfcsec.com/hsl.docs//Aether Industries - Update - Oct26 - HSIE-202610281424365612349.pdf?t=28102026150051051"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/equity/consensus-estimates/903803/AETHER/aether-industries-ltd/"
+        }
+      ]
+    },
+    "AMIC": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No brokerage research reports or price targets were found for this BSE SME stock.",
+      "sources": [
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/amic/forecast"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/stock/1804378/13570128/amic-forging-ltd/"
+        }
+      ]
+    },
+    "APOLLO": {
+      "checked": "2026-11-19",
+      "n": 4,
+      "rating": "buy",
+      "tMean": 468.75,
+      "tLow": 400,
+      "tHigh": 570,
+      "asOf": "2026-09",
+      "brokers": "Systematix (Buy, TP 570)",
+      "note": "The S&P Global consensus covers four analysts: three are Buy or Strong Buy and one is Sell. Systematix began coverage in September 2026 with the top target of 570. The stock now trades close to the average target.",
+      "sources": [
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/APOLLO/forecast/"
+        },
+        {
+          "name": "Business Today",
+          "url": "https://www.businesstoday.in/markets/stocks/story/rs-12000-crore-orders-expected-46-upside-systematix-initiates-coverage-on-this-defence-stock-553700-2026-09-07"
+        }
+      ]
+    },
+    "BAJAJHLDNG": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "This holding company has no active analyst ratings or targets on the sites checked. Trendlyne shows only user votes, which were ignored.",
+      "sources": [
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/bajajhldng/forecast"
+        },
+        {
+          "name": "MarketScreener",
+          "url": "https://ca.marketscreener.com/quote/stock/BAJAJ-HOLDINGS-INVESTMENT-6491903/consensus"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/post/BAJAJHLDNG/149/bajaj-holdings-investment-ltd"
+        }
+      ]
+    },
+    "GAIL": {
+      "checked": "2026-11-19",
+      "n": 29,
+      "rating": "buy",
+      "tMean": 200.45,
+      "tLow": 162,
+      "tHigh": 225,
+      "asOf": "2026-11",
+      "note": "Coverage is broad and mostly positive. On Sharpely, 20 of 31 analysts rate it Buy or Strong Buy and 10 rate it Hold. Simply Wall St reported a similar consensus target of about 201 after the Q2 results.",
+      "sources": [
+        {
+          "name": "TradingView",
+          "url": "https://www.tradingview.com/symbols/BSE-GAIL/forecast-price-target/"
+        },
+        {
+          "name": "Simply Wall St via Webull (3 Nov 2026)",
+          "url": "https://www.webull.com/news/15857098519387136"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/gail/forecast"
+        }
+      ]
+    },
+    "GRWRHITECH": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No current consensus was found. Trendlyne's newest report, an Axis Direct Buy dated Oct 2025 with a target of 3,815, is under half of today's price and already reached, so it was treated as stale. The other reports date from 2023.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/stock/2089/GRWRHITECH/garware-hi-tech-films-ltd"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/grwrhitech/forecast"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/nse/grwrhitech/analyst-estimates"
+        }
+      ]
+    },
+    "IGIL": {
+      "checked": "2026-11-19",
+      "n": 4,
+      "rating": "buy",
+      "tMean": 504,
+      "tLow": 410,
+      "tHigh": 574,
+      "asOf": "2026-10",
+      "note": "All four analysts in the S&P Global consensus are Buy or Strong Buy as of October 2026. The average target is about 12% above the current price.",
+      "sources": [
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/IGIL/forecast/"
+        },
+        {
+          "name": "Simply Wall St",
+          "url": "https://simplywall.st/stocks/in/commercial-services/nse-igil/international-gemmological-institute-india-shares/news/international-gemmological-institute-india-limited-nseigil-t"
+        }
+      ]
+    },
+    "INDIGO": {
+      "checked": "2026-11-19",
+      "n": 25,
+      "rating": "buy",
+      "tMean": 5660,
+      "tLow": 4050,
+      "tHigh": 6600,
+      "asOf": "2026-10",
+      "brokers": "Jefferies, Kotak, JM Financial, Axis Capital, Anand Rathi, Nomura",
+      "note": "Most analysts are bullish: 21 of 25 are Buy or Strong Buy. The stock has climbed to about the average target since the October data. MarketScreener showed a similar mean of about 5,616 from 24 analysts in September.",
+      "sources": [
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/indigo/forecast"
+        },
+        {
+          "name": "MarketScreener",
+          "url": "https://in.marketscreener.com/quote/stock/INTERGLOBE-AVIATION-LIMIT-25531239/consensus/"
+        }
+      ]
+    },
+    "OPTIEMUS": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No brokerage consensus was found. The only call seen was a short-term technical target from an individual SEBI-registered analyst in June 2025, which was not counted.",
+      "sources": [
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/optiemus/forecast"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/nse/optiemus/analyst-estimates"
+        }
+      ]
+    },
+    "RKFORGE": {
+      "checked": "2026-11-19",
+      "n": 4,
+      "rating": "hold",
+      "tMean": 634,
+      "tLow": 550,
+      "tHigh": 680,
+      "asOf": "2026-10",
+      "note": "The consensus is cautious, with 3 Hold and 1 Sell in October 2026. The shares have risen well above every target after a strong Q2 FY27, so these targets may be revised.",
+      "sources": [
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/RKFORGE/forecast/"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/rkforge/forecast"
+        }
+      ]
+    },
+    "SEJALLTD": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No brokerage coverage found; Alpha Spread lists no price targets and Sharpely shows no active analyst recommendations.",
+      "sources": [
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/nse/sejalltd/analyst-estimates"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/sejalltd/forecast"
+        }
+      ]
+    },
+    "SGMART": {
+      "checked": "2026-11-19",
+      "n": 1,
+      "rating": "buy",
+      "tMean": 827,
+      "tLow": 827,
+      "tHigh": 827,
+      "asOf": "2026-10",
+      "brokers": "Arihant Capital (likely sole coverer)",
+      "note": "Only one analyst covers it; TradingView shows a single Rs 827 target, below the current price after a sharp rally. Arihant moved to Accumulate (TP 714) in Jul 2026; the 827 target's broker and exact date are not shown, so asOf is approximate.",
+      "sources": [
+        {
+          "name": "TradingView",
+          "url": "https://in.tradingview.com/symbols/NSE-SGMART/forecast-price-target/"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/512329-bom/forecast"
+        },
+        {
+          "name": "Arihant Capital Q1FY27 result update",
+          "url": "https://arihantresearch.arihantcapital.com/Mumbai_Research/SG%20Mart%20-%20Q1FY27%20Result%20Update.pdf"
+        }
+      ]
+    },
+    "SHYAMMETL": {
+      "checked": "2026-11-19",
+      "n": 9,
+      "rating": "buy",
+      "tMean": 1305,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": "2026-11",
+      "brokers": "Goldman Sachs and others",
+      "note": "Trendlyne's consensus from 9 analyst calls is Rs 1305, slightly under the current price. Most covering analysts rate it Buy (Sharpely showed 7 of 8 positive); Goldman Sachs reiterated Buy with a Rs 1,120 target in Oct 2026.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/equity/consensus-estimates/546490/SHYAMMETL/shyam-metalics-and-energy-ltd"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/shyammetl/forecast"
+        },
+        {
+          "name": "Business Today",
+          "url": "https://www.businesstoday.in/markets/stocks/story/shyam-metalics-shares-goldman-sachs-maintains-buy-call-says-this-560339-2026-10-08"
+        }
+      ]
+    },
+    "SONACOMS": {
+      "checked": "2026-11-19",
+      "n": 20,
+      "rating": "buy",
+      "tMean": 828,
+      "tLow": 556,
+      "tHigh": 966,
+      "asOf": "2026-10",
+      "brokers": "Elara, Jefferies, Motilal Oswal",
+      "note": "Consensus target is about Rs 828 (Alpha Spread, 20 analysts), below the price after a big post-Q2 rally. Newer calls are higher: Elara Buy Rs 1,005 and Jefferies Buy Rs 950, while Motilal Oswal is Neutral at Rs 800 (Oct 2026).",
+      "sources": [
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/bse/543300/analyst-estimates"
+        },
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/SONACOMS/forecast/"
+        },
+        {
+          "name": "Business Standard",
+          "url": "https://www.business-standard.com/s/2gA8lsN"
+        },
+        {
+          "name": "Business Standard",
+          "url": "https://www.business-standard.com/s/2gA9Fmb"
+        }
+      ]
+    },
+    "TIPSMUSIC": {
+      "checked": "2026-11-19",
+      "n": 3,
+      "rating": "buy",
+      "tMean": 845,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": "2026-11",
+      "note": "Trendlyne shows a Rs 845 consensus target from 3 analysts with a Buy view, only slightly above the current price. S&P Global data on StockAnalysis earlier labelled the consensus Strong Buy, with lower targets that are now out of date.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/equity/consensus-estimates/1401/TIPSMUSIC/tips-music-ltd/"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/1401/TIPSMUSIC/tips-music-ltd/"
+        },
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/TIPSMUSIC/forecast/"
+        }
+      ]
+    },
+    "TMB": {
+      "checked": "2026-11-19",
+      "n": 1,
+      "rating": "buy",
+      "tMean": 565,
+      "tLow": 565,
+      "tHigh": 565,
+      "asOf": "2025-12",
+      "brokers": "HDFC Securities",
+      "note": "Only view found is HDFC Securities' Dec 2025 Buy, with a base-case value of Rs 565 (bull case Rs 610); the stock has since risen far above that. Alpha Spread, Sharpely and TipRanks show no current analyst targets.",
+      "sources": [
+        {
+          "name": "HDFC Sky (HDFC Securities)",
+          "url": "https://hdfcsky.com/market-reports/pick-of-the-week/tamilnad-mercantile-bank-analysis-01-dec-2025"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/nse/tmb/analyst-estimates"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/tmb/forecast"
+        }
+      ]
+    },
+    "AEROENTER": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No brokerage research or consensus target found for this small cap.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/equity/consensus-estimates/2424/AEROENTER/aeroflex-enterprises-ltd/"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/post/AEROENTER/2424/aeroflex-enterprises-ltd/"
+        }
+      ]
+    },
+    "KTKBANK": {
+      "checked": "2026-11-19",
+      "n": 2,
+      "rating": "buy",
+      "tMean": 359,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": "2026-07",
+      "brokers": "Anand Rathi",
+      "note": "Two analysts cover it, with a Rs 359 consensus target, just below the current price. The newest named call is Anand Rathi's Buy at Rs 364 (Jul 2026).",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/equity/consensus-estimates/775/KTKBANK/karnataka-bank-ltd/"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/775/KTKBANK/karnataka-bank-ltd/"
+        }
+      ]
+    },
+    "LUMAXIND": {
+      "checked": "2026-11-19",
+      "n": 3,
+      "rating": "strong_buy",
+      "tMean": 7043,
+      "tLow": 6500,
+      "tHigh": 8050,
+      "asOf": "2026-11",
+      "note": "All three covering analysts rate it Strong Buy per S&P Global data, with an average target of about Rs 7,043, roughly 24% above the current price.",
+      "sources": [
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/bom/517206/forecast/"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/equity/consensus-estimates/802/LUMAXIND/lumax-industries-ltd/"
+        }
+      ]
+    },
+    "MUFIN": {
+      "checked": "2026-11-19",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No analyst ratings or price targets found.",
+      "sources": [
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/mufin/forecast"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/nse/mufin/analyst-estimates"
+        }
+      ]
+    },
+    "PIRAMALFIN": {
+      "checked": "2026-11-19",
+      "n": 10,
+      "rating": "buy",
+      "tMean": 2316,
+      "tLow": 1200,
+      "tHigh": 2800,
+      "asOf": "2026-10",
+      "brokers": "Motilal Oswal and others",
+      "note": "S&P Global consensus for the listed Piramal Finance shows 8 of 10 positive (5 Strong Buy, 3 Buy, 2 Hold) with an average target of Rs 2,316. Motilal Oswal kept Buy with a Rs 2,470 target after Q2FY27 (Oct 2026); the Rs 1,200 low looks like an outlier.",
+      "sources": [
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/PIRAMALFIN/forecast/"
+        },
+        {
+          "name": "Motilal Oswal Q2FY27 update",
+          "url": "https://investmentguruindia.com/editorial/uploads/news-pdf/f3f2cf9f_PIRAMALF-20261018-MOFSL-RU-PG014.pdf"
+        }
+      ]
+    },
+    "PRIVISCL": {
+      "checked": "2026-11-19",
+      "n": 3,
+      "rating": "strong_buy",
+      "tMean": 4214,
+      "tLow": 4000,
+      "tHigh": 4490,
+      "asOf": "2026-11",
+      "note": "All three covering analysts rate it Strong Buy (S&P Global), averaging about Rs 4,214. Trendlyne's consensus is a little higher at Rs 4,365.",
+      "sources": [
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/bom/530117/forecast/"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/equity/consensus-estimates/1723/PRIVISCL/privi-speciality-chemicals-ltd/"
+        }
       ]
     }
   }
