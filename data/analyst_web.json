@@ -1,0 +1,80 @@
+{
+  "about": "Analyst ratings found by web research for stocks that Yahoo Finance does not cover. Maintained by a weekly scheduled task; read by build_dashboard.py. n = number of analysts found (0 = searched, none found). rating: strong_buy | buy | hold | underperform | sell | null. Prices in INR. checked = date researched; asOf = date of the newest analyst view found.",
+  "updated": "2026-11-19",
+  "stocks": {
+    "ALICON": {
+      "checked": "2026-11-19", "n": 1, "rating": "buy", "tMean": 1391, "tLow": null, "tHigh": null, "asOf": "2025-07",
+      "brokers": "S&P Global consensus (1 analyst); earlier Asit C Mehta (Accumulate)",
+      "note": "Only one analyst covers it. Stockopedia shows a slightly different consensus target of 1,465, so treat the target as rough.",
+      "sources": [
+        {"name": "INDmoney (S&P Global)", "url": "https://indmoney.com/stocks/alicon-castalloy-ltd-share-price"},
+        {"name": "Trendlyne", "url": "https://trendlyne.com/equity/consensus-estimates/56/ALICON/alicon-castalloy-ltd/"},
+        {"name": "Stockopedia", "url": "https://www.stockopedia.com/share-prices/alicon-castalloy-NSI:ALICON/"}
+      ]
+    },
+    "SGFIN": {
+      "checked": "2026-11-19", "n": 1, "rating": "buy", "tMean": 783, "tLow": 783, "tHigh": 783, "asOf": null,
+      "brokers": "Nirmal Bang (monthly pick)",
+      "note": "TradingView shows one analyst with a 783 target. Nirmal Bang's monthly-pick report values it higher, at 916.",
+      "sources": [
+        {"name": "TradingView", "url": "https://in.tradingview.com/symbols/BSE-SGFIN/forecast"},
+        {"name": "Nirmal Bang report", "url": "https://www.nirmalbang.com/Upload/SG-Finserve----Montly-Pick.pdf"}
+      ]
+    },
+    "STYLEBAAZA": {
+      "checked": "2026-11-19", "n": 2, "rating": "buy", "tMean": 436, "tLow": null, "tHigh": null, "asOf": "2026-10",
+      "brokers": "JM Financial and others",
+      "note": "Sharpely lists one Buy with a 430 target; TradingView shows 2 analysts averaging 436. Stockopedia rates the consensus Strong Buy.",
+      "sources": [
+        {"name": "Sharpely", "url": "https://sharpely.in/stocks/stylebaaza/forecast"},
+        {"name": "TradingView", "url": "https://www.tradingview.com/symbols/NSE-STYLEBAAZA/forecast"},
+        {"name": "Stockopedia", "url": "https://www.stockopedia.com/share-prices/baazar-style-retail-NSI:STYLEBAAZA"}
+      ]
+    },
+    "ESAFSFB": {
+      "checked": "2026-11-19", "n": 0,
+      "sources": [
+        {"name": "Sharpely", "url": "https://sharpely.in/stocks/esafsfb/forecast"},
+        {"name": "Alpha Spread", "url": "https://www.alphaspread.com/security/bse/544020/analyst-estimates"},
+        {"name": "Stockopedia", "url": "https://stockopedia.com/share-prices/esaf-small-finance-bank-NSI:ESAFSFB"}
+      ]
+    },
+    "FILATEX": {
+      "checked": "2026-11-19", "n": 0,
+      "note": "Stockopedia still lists an old consensus target of 52, far below today's price, so it is not used.",
+      "sources": [
+        {"name": "Sharpely", "url": "https://sharpely.in/stocks/filatex/forecast"},
+        {"name": "Alpha Spread", "url": "https://www.alphaspread.com/security/nse/filatex/analyst-estimates"}
+      ]
+    },
+    "GHCLTEXTIL": {
+      "checked": "2026-11-19", "n": 0,
+      "sources": [
+        {"name": "Alpha Spread", "url": "https://www.alphaspread.com/security/nse/ghcltextil/analyst-estimates"},
+        {"name": "TipRanks", "url": "https://www.tipranks.com/stocks/in:ghcltextil/forecast"}
+      ]
+    },
+    "HINDOILEXP": {
+      "checked": "2026-11-19", "n": 0,
+      "note": "Stockopedia shows a Buy consensus but no price target. The last broker report found (ICICI Direct, June 2023, target 260) is too old to use.",
+      "sources": [
+        {"name": "Sharpely", "url": "https://sharpely.in/stocks/hindoilexp/forecast"},
+        {"name": "Alpha Spread", "url": "https://alphaspread.com/security/nse/hindoilexp/analyst-estimates"},
+        {"name": "Stockopedia", "url": "https://www.stockopedia.com/share-prices/hindustan-oil-exploration-NSI:HINDOILEXP"}
+      ]
+    },
+    "NRL": {
+      "checked": "2026-11-19", "n": 0,
+      "sources": [
+        {"name": "Alpha Spread", "url": "https://www.alphaspread.com/security/nse/nrl/analyst-estimates"},
+        {"name": "Sharpely", "url": "https://sharpely.in/stocks/nrl/forecast"}
+      ]
+    },
+    "ZELIO": {
+      "checked": "2026-11-19", "n": 0,
+      "sources": [
+        {"name": "Sharpely", "url": "https://sharpely.in/stocks/544563-bom/forecast"}
+      ]
+    }
+  }
+}
