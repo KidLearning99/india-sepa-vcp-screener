@@ -2334,6 +2334,536 @@
           "url": "https://stockanalysis.com/quote/nse/TI/forecast/"
         }
       ]
+    },
+    "ASAHIINDIA": {
+      "checked": "2026-11-20",
+      "n": 2,
+      "rating": "buy",
+      "tMean": 1734,
+      "tLow": 1400,
+      "tHigh": 2067,
+      "asOf": "2026-11",
+      "brokers": "ICICI Securities (+1 unnamed)",
+      "note": "Both covering analysts are positive. ICICI Securities rates it Buy with a Rs 1,400 target (4 Nov 2026), and the second, unnamed target is Rs 2,067. S&P's consensus labels this Strong Buy, but the one named broker's own rating is Buy.",
+      "sources": [
+        {
+          "name": "StockAnalysis (S&P Global consensus)",
+          "url": "https://stockanalysis.com/quote/bom/515030/forecast/"
+        },
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/107/ASAHIINDIA/asahi-india-glass-ltd"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/post/ASAHIINDIA/107/asahi-india-glass-ltd"
+        }
+      ]
+    },
+    "MODINSU": {
+      "checked": "2026-11-20",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No brokerage coverage found. Trendlyne lists no research reports, Sharpely shows no active recommendations, and Investing.com shows only paywalled fair-value models.",
+      "sources": [
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/83570/MODINSULAT/modern-insulators-ltd/"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/modinsu/forecast"
+        },
+        {
+          "name": "Investing.com consensus",
+          "url": "https://www.investing.com/equities/modern-insulators-consensus-estimates"
+        }
+      ]
+    },
+    "WOCKPHARMA": {
+      "checked": "2026-11-20",
+      "n": 1,
+      "rating": "buy",
+      "tMean": 1870,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": "2025-07",
+      "brokers": "Axis Direct",
+      "note": "The only rated target is Axis Direct's Buy at Rs 1,870 from July 2025. It is about 16 months old and the stock now trades above it. Deven Choksey's June 2026 report carries no rating, and Sharpely and Trendlyne show no active consensus.",
+      "sources": [
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/1527/WOCKPHARMA/wockhardt-ltd"
+        },
+        {
+          "name": "Trendlyne post (Axis Direct report)",
+          "url": "https://trendlyne.com/posts/5196025/axis-punch-wockhardt"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/wockpharma/forecast"
+        }
+      ]
+    },
+    "STEELCAS": {
+      "checked": "2026-11-20",
+      "n": 1,
+      "rating": "hold",
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "brokers": "Monarch Networth Capital (MNCL)",
+      "note": "MNCL is the only broker found. Its company update rates the stock Hold and implies about 4% downside, but the report itself could not be opened, so the target and exact date (probably the late-2025 2QFY26 update) are unconfirmed. Alpha Spread and Trendlyne show no consensus target.",
+      "sources": [
+        {
+          "name": "MNCL Steelcast company update",
+          "url": "https://www.mnclgroup.com/steelcast-ltd-tariff-risk-weighs-on-near-term-growth-long-term-outlook-stable"
+        },
+        {
+          "name": "MNCL 2QFY26 update PDF",
+          "url": "https://www.mnclgroup.com/storage/mncl-steelcast-ltd-2qfy26-company-update.pdf"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/nse/steelcas/analyst-estimates"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/2641/STEELCAS/steel-cast-ltd"
+        }
+      ]
+    },
+    "TVSMOTOR": {
+      "checked": "2026-11-20",
+      "n": 39,
+      "rating": "buy",
+      "tMean": 4693,
+      "tLow": 2470,
+      "tHigh": 5600,
+      "asOf": "2026-11",
+      "brokers": "Emkay, Jefferies, Goldman Sachs, Kotak, Macquarie, J.P. Morgan, Citi",
+      "note": "About 80% of the 39 analysts rate it Buy or Strong Buy. After Q2 most brokers raised targets (Emkay Rs 5,600, Jefferies Rs 5,425, Goldman Rs 5,290), while Citi kept a Sell at Rs 3,600; the average target is now only about 2% above the price.",
+      "sources": [
+        {
+          "name": "Sharpely consensus",
+          "url": "https://sharpely.in/stocks/tvsmotor/forecast"
+        },
+        {
+          "name": "NewsKarnataka Q2 broker roundup (29 Oct 2026)",
+          "url": "https://newskarnataka.com/business/tvs-motor-q2-brokerages-raise-targets-citi-says-sell/29102026/"
+        },
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/TVSMOTOR/forecast/"
+        }
+      ]
+    },
+    "UNITEDPOLY": {
+      "checked": "2026-11-20",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No brokerage coverage found. Trendlyne lists no research reports, and TipRanks shows only AI-generated ratings, which were excluded.",
+      "sources": [
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/post/UNITEDPOLY/87839/united-polyfab-gujarat-ltd/"
+        },
+        {
+          "name": "TipRanks forecast",
+          "url": "https://www.tipranks.com/stocks/in:unitedpoly/forecast"
+        }
+      ]
+    },
+    "INOXINDIA": {
+      "checked": "2026-11-20",
+      "n": 3,
+      "rating": "buy",
+      "tMean": 2253,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": "2026-11",
+      "brokers": "MNCL, Systematix",
+      "note": "All three covering analysts are positive (S&P shows 2 Strong Buy and 1 Buy), and Trendlyne's average target is Rs 2,253. An older September 2026 S&P snapshot averaged Rs 2,153 in a Rs 2,010-2,250 range, so no current range is given.",
+      "sources": [
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/1830843/INOXINDIA/inox-india-ltd/"
+        },
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/INOXINDIA/forecast/"
+        },
+        {
+          "name": "MNCL Q1FY27 update",
+          "url": "https://www.mnclgroup.com/inox-india-ltd-q1fy27-company-update"
+        },
+        {
+          "name": "Business Standard (Systematix)",
+          "url": "https://www.business-standard.com/markets/news/systematix-sees-inox-india-as-top-pick-in-industrial-gases-39-upside-eyed-125101000493_1.html"
+        }
+      ]
+    },
+    "EPL": {
+      "checked": "2026-11-20",
+      "n": 7,
+      "rating": "strong_buy",
+      "tMean": 314.17,
+      "tLow": 280,
+      "tHigh": 360,
+      "asOf": "2026-11",
+      "brokers": "Motilal Oswal, ICICI Securities",
+      "note": "In the S&P Global poll, 5 analysts rate it Strong Buy and 2 rate it Buy, with none bearish. The latest named calls are Motilal Oswal Buy at 290 (Aug 2026) and ICICI Securities Buy at 315 (Mar 2026).",
+      "sources": [
+        {
+          "name": "StockAnalysis (S&P Global consensus)",
+          "url": "https://stockanalysis.com/quote/nse/EPL/forecast/"
+        },
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/393/EPL/epl-ltd/"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/393/EPL/epl-ltd/"
+        }
+      ]
+    },
+    "PARAGMILK": {
+      "checked": "2026-11-20",
+      "n": 2,
+      "rating": "buy",
+      "tMean": 362,
+      "tLow": 350,
+      "tHigh": 374,
+      "asOf": "2026-11",
+      "note": "Only two analysts cover the stock and both rate it Buy after the Q2 FY27 results in early November 2026. The average target is only about 5% above the price; older calls such as Emkay's Buy at 250 (Mar 2026) have been overtaken by the rally.",
+      "sources": [
+        {
+          "name": "MarketScreener consensus",
+          "url": "https://in.marketscreener.com/quote/stock/PARAG-MILK-FOODS-LIMITED-46731348/consensus/"
+        },
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/2016/PARAGMILK/parag-milk-foods-ltd/"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/2016/PARAGMILK/parag-milk-foods-ltd"
+        }
+      ]
+    },
+    "YATHARTH": {
+      "checked": "2026-11-20",
+      "n": 4,
+      "rating": "strong_buy",
+      "tMean": 1164,
+      "tLow": 1000,
+      "tHigh": 1350,
+      "asOf": "2026-10",
+      "brokers": "Nuvama, Choice Broking",
+      "note": "All 4 analysts in the S&P Global poll are bullish (Strong Buy as of Oct 2026). Trendlyne's consensus target is higher, at about 1,227 to 1,287.",
+      "sources": [
+        {
+          "name": "StockAnalysis (S&P Global consensus)",
+          "url": "https://stockanalysis.com/quote/nse/YATHARTH/forecast/"
+        },
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/1565404/YATHARTH/yatharth-hospital-trauma-care-services-ltd"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/1565404/YATHARTH/yatharth-hospital-trauma-care-services-ltd/"
+        }
+      ]
+    },
+    "ARVIND": {
+      "checked": "2026-11-20",
+      "n": 7,
+      "rating": "strong_buy",
+      "tMean": 661.86,
+      "tLow": 565,
+      "tHigh": 700,
+      "asOf": "2026-11",
+      "brokers": "Emkay, Motilal Oswal",
+      "note": "Six of seven analysts are Strong Buy and one is Sell (S&P Global, Sep 2026). Recent named calls are Emkay Buy at 700 (Oct 2026) and Motilal Oswal Buy at 670 (Aug 2026); the mean is Trendlyne's Nov 2026 figure and the range is S&P's.",
+      "sources": [
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/105/ARVIND/arvind-ltd/"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/105/ARVIND/arvind-ltd/"
+        },
+        {
+          "name": "StockAnalysis (S&P Global consensus)",
+          "url": "https://stockanalysis.com/quote/nse/ARVIND/forecast/"
+        }
+      ]
+    },
+    "ASKAUTOLTD": {
+      "checked": "2026-11-20",
+      "n": 7,
+      "rating": "strong_buy",
+      "tMean": 708.14,
+      "tLow": 500,
+      "tHigh": 800,
+      "asOf": "2026-11",
+      "brokers": "ICICI Securities, BP Wealth",
+      "note": "In the S&P Global poll, 5 analysts rate it Strong Buy and 2 rate it Buy as of Nov 2026, with no Holds or Sells. ICICI Securities' latest call is Buy at 750 (Aug 2026).",
+      "sources": [
+        {
+          "name": "StockAnalysis (S&P Global consensus)",
+          "url": "https://stockanalysis.com/quote/nse/ASKAUTOLTD/forecast/"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/1776576/ASKAUTOLTD/ask-automotive-ltd"
+        }
+      ]
+    },
+    "ATHERENERG": {
+      "checked": "2026-11-20",
+      "n": 12,
+      "rating": "strong_buy",
+      "tMean": 1776,
+      "tLow": 1010,
+      "tHigh": 2250,
+      "asOf": "2026-10",
+      "brokers": "HSBC, Nomura, CLSA, Axis Capital, Equirus, Avendus Spark, Nirmal Bang, Emkay",
+      "note": "All 12 analysts are positive (8 Strong Buy, 4 Buy, per S&P Global in Oct 2026), but the stock now trades above the average target. Post-Q2 targets ranged from 1,770 to 2,250.",
+      "sources": [
+        {
+          "name": "StockAnalysis (S&P Global consensus)",
+          "url": "https://stockanalysis.com/quote/bom/544397/forecast/"
+        },
+        {
+          "name": "Business Today broker targets after Q2 (Oct 2026)",
+          "url": "https://www.businesstoday.in/markets/stocks/story/ather-energy-shares-buy-hold-or-sell-target-prices-after-ebitda-turns-positive-in-q2-563822-2026-10-27"
+        }
+      ]
+    },
+    "BHEL": {
+      "checked": "2026-11-20",
+      "n": 19,
+      "rating": "hold",
+      "tMean": 437,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": "2026-11",
+      "brokers": "CLSA, Jefferies, Axis Capital, PL Capital, Macquarie, ICICI Securities, JM Financial",
+      "note": "Analysts are sharply split, leaving the consensus at Hold. ICICI Securities (550) and JM Financial (535) say Buy, while CLSA (351), Jefferies (442), Axis Capital (305) and PL Capital (426) are cautious; the published range is left out because its low looks stale.",
+      "sources": [
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/189/BHEL/bharat-heavy-electricals-ltd/"
+        },
+        {
+          "name": "TradingView forecast",
+          "url": "https://in.tradingview.com/symbols/NSE-BHEL/forecast"
+        },
+        {
+          "name": "StockAnalysis (S&P Global consensus)",
+          "url": "https://stockanalysis.com/quote/nse/BHEL/forecast/"
+        },
+        {
+          "name": "Business Today broker targets (Oct 2026)",
+          "url": "https://www.businesstoday.in/markets/stocks/story/bhel-target-price-stock-falls-6-even-as-brokerage-ups-estimates-should-you-buy-sell-or-hold-561824-2026-10-15"
+        }
+      ]
+    },
+    "BOROLTD": {
+      "checked": "2026-11-20",
+      "n": 2,
+      "rating": "buy",
+      "tMean": 332.5,
+      "tLow": 330,
+      "tHigh": 335,
+      "asOf": "2026-11",
+      "brokers": "ICICI Securities, Monarch Networth (older named calls)",
+      "note": "Two analysts cover it and both rate it Buy, but after the post-Q2 rally the targets sit about at the price. The last named calls are from Aug 2025 (ICICI Securities Add at 365, Monarch Networth Buy at 420).",
+      "sources": [
+        {
+          "name": "MarketScreener consensus",
+          "url": "https://ca.marketscreener.com/quote/stock/BOROSIL-LIMITED-111315607/consensus/"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/250864/BOROLTD/borosil-ltd"
+        },
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/BOROLTD/forecast/"
+        }
+      ]
+    },
+    "JYOTICNC": {
+      "checked": "2026-11-20",
+      "n": 6,
+      "rating": "strong_buy",
+      "tMean": 1100,
+      "tLow": 840,
+      "tHigh": 1275,
+      "asOf": "2026-11",
+      "brokers": "Anand Rathi, Minerva Capital, Keynote Capitals, BP Wealth, Yes Securities",
+      "note": "All six analysts are positive (three Strong Buy, three Buy). Anand Rathi (1,275) and Minerva (1,234) issued Buy calls in Nov 2026; Trendlyne's consensus is a little higher at about 1,130.",
+      "sources": [
+        {
+          "name": "Sharpely forecast",
+          "url": "https://sharpely.in/stocks/jyoticnc/forecast"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/1873481/JYOTICNC/jyoti-cnc-automation-ltd"
+        },
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/1873481/JYOTICNC/jyoti-cnc-automation-ltd/"
+        },
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/JYOTICNC/forecast/"
+        }
+      ]
+    },
+    "LENSKART": {
+      "checked": "2026-11-20",
+      "n": 25,
+      "rating": "buy",
+      "tMean": 773.76,
+      "tLow": 503,
+      "tHigh": 888,
+      "asOf": "2026-11",
+      "brokers": "Nomura, Equirus, HSBC, Jefferies, CLSA, Macquarie, Citi, Goldman Sachs, Morgan Stanley",
+      "note": "21 of 25 analysts rate it Buy or Strong Buy, and many raised targets after strong Q2 FY27 results (Nomura 888, Jefferies 780, CLSA 773). Citi stays Neutral at 700 and two analysts rate it Sell.",
+      "sources": [
+        {
+          "name": "Sharpely forecast",
+          "url": "https://sharpely.in/stocks/lenskart/forecast"
+        },
+        {
+          "name": "Inc42 - post-Q2 broker targets",
+          "url": "https://inc42.com/buzz/lenskart-shares-jump-11-to-all-time-high-after-q2-profit-more-than-doubles/"
+        },
+        {
+          "name": "MarketScreener",
+          "url": "https://in.marketscreener.com/quote/stock/LENSKART-SOLUTIONS-LIMITE-198299454/"
+        }
+      ]
+    },
+    "SMARTWORKS": {
+      "checked": "2026-11-20",
+      "n": 7,
+      "rating": "strong_buy",
+      "tMean": 648.14,
+      "tLow": 534,
+      "tHigh": 725,
+      "asOf": "2026-11",
+      "brokers": "Nirmal Bang, Motilal Oswal, Kotak, Choice, BOB Capital Markets",
+      "note": "Six of seven analysts are bullish (four Strong Buy, two Buy) and one rates it Hold. TradingView shows a similar average of about 652.",
+      "sources": [
+        {
+          "name": "Sharpely forecast",
+          "url": "https://sharpely.in/stocks/smartworks/forecast"
+        },
+        {
+          "name": "TradingView forecast",
+          "url": "https://in.tradingview.com/symbols/NSE-SMARTWORKS/forecast"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/post/SMARTWORKS/3169772/smartworks-coworking-spaces-ltd"
+        },
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/SMARTWORKS/forecast/"
+        }
+      ]
+    },
+    "KRBL": {
+      "checked": "2026-11-20",
+      "n": 1,
+      "rating": "buy",
+      "tMean": 638,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": "2026-08",
+      "brokers": "Arihant Capital",
+      "note": "Sharpely and Trendlyne show no active consensus; the only current view found is Arihant Capital's Buy at 638 in its Q1FY27 update (Aug 2026).",
+      "sources": [
+        {
+          "name": "Arihant Capital Q1FY27 result update",
+          "url": "https://arihantresearch.arihantcapital.com/Mumbai_Research/KRBL_Ltd_Q1FY27_Result_Update.pdf"
+        },
+        {
+          "name": "Sharpely forecast",
+          "url": "https://sharpely.in/stocks/krbl/forecast"
+        },
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/765/KRBL/krbl-ltd"
+        }
+      ]
+    },
+    "QUESS": {
+      "checked": "2026-11-20",
+      "n": 8,
+      "rating": "buy",
+      "tMean": 342.38,
+      "tLow": 230,
+      "tHigh": 384,
+      "asOf": "2026-10",
+      "brokers": "Nuvama, Motilal Oswal",
+      "note": "Most of the eight analysts are positive (five Strong Buy, two Buy, one Hold), but after the rally since May 2026 the average target is roughly at the price. Trendlyne's consensus is about 357.",
+      "sources": [
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/QUESS/forecast/"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/4595/QUESS/quess-corp-ltd"
+        },
+        {
+          "name": "Business Today - Nuvama Buy",
+          "url": "https://www.businesstoday.in/markets/stocks/story/why-quess-corp-shares-still-a-buy-despite-stock-down-37-in-a-year-target-price-530002-2026-05-06"
+        }
+      ]
+    },
+    "SHAILY": {
+      "checked": "2026-11-20",
+      "n": 6,
+      "rating": "strong_buy",
+      "tMean": 3917,
+      "tLow": 3550,
+      "tHigh": 4500,
+      "asOf": "2026-08",
+      "brokers": "UBS",
+      "note": "Five of six analysts rate it Strong Buy and one moved to Hold in Aug 2026. Trendlyne's Nov 2026 consensus from six analysts is similar at about 3,934.",
+      "sources": [
+        {
+          "name": "StockAnalysis (S&P Global)",
+          "url": "https://stockanalysis.com/quote/nse/SHAILY/forecast/"
+        },
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/2105/SHAILY/shaily-engineering-plastics-ltd/"
+        },
+        {
+          "name": "Business Standard - UBS initiation",
+          "url": "https://www.business-standard.com/markets/news/ubs-initiates-buy-on-shaily-engineering-plastics-sees-60-percent-upside-125112500108_1.html"
+        }
+      ]
     }
   }
 }
