@@ -1,6 +1,6 @@
 {
   "about": "Analyst ratings found by web research for stocks that Yahoo Finance does not cover. Maintained by a weekly scheduled task; read by build_dashboard.py. n = number of analysts found (0 = searched, none found). rating: strong_buy | buy | hold | underperform | sell | null. Prices in INR. checked = date researched; asOf = date of the newest analyst view found.",
-  "updated": "2026-11-20",
+  "updated": "2026-11-27",
   "stocks": {
     "ALICON": {
       "checked": "2026-11-19",
@@ -2862,6 +2862,715 @@
         {
           "name": "Business Standard - UBS initiation",
           "url": "https://www.business-standard.com/markets/news/ubs-initiates-buy-on-shaily-engineering-plastics-sees-60-percent-upside-125112500108_1.html"
+        }
+      ]
+    },
+    "RUBICON": {
+      "checked": "2026-11-27",
+      "n": 2,
+      "rating": "strong_buy",
+      "tMean": 2065,
+      "tLow": 2040,
+      "tHigh": 2090,
+      "asOf": "2026-11",
+      "brokers": "Motilal Oswal (+1 unnamed in S&P consensus)",
+      "note": "Two analysts in the S&P Global consensus (range 2040-2090), shown as Strong Buy on aggregators. Motilal Oswal raised its Buy target to 2090 on 6 Nov 2026.",
+      "sources": [
+        {
+          "name": "Investing.com consensus",
+          "url": "https://in.investing.com/equities/rubicon-research-consensus-estimates"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/rubicon/forecast"
+        },
+        {
+          "name": "TradingView",
+          "url": "https://in.tradingview.com/symbols/BSE-RUBICON/forecast"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/3283430/RUBICON/rubicon-research-ltd"
+        },
+        {
+          "name": "InvestmentGuruIndia (Motilal Oswal TP 2090)",
+          "url": "https://investmentguruindia.com/newsdetail/buy-rubicon-research-ltd-for-target-rs-2-090-by-motilal-oswal-financial-services-ltd909539"
+        },
+        {
+          "name": "StockAnalysis",
+          "url": "https://stockanalysis.com/quote/nse/RUBICON/forecast/"
+        }
+      ]
+    },
+    "SWARAJ": {
+      "checked": "2026-11-27",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "NSE SME stock with no sell-side coverage found: Trendlyne lists zero broker reports, INDmoney shows analyst view as NA, Investing.com and MarketScreener show no consensus, and TradingView only has technical signals.",
+      "sources": [
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/post/SWARAJ/847706/swaraj-suiting-ltd"
+        },
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/847706/SWARAJ/swaraj-suiting-ltd/"
+        },
+        {
+          "name": "INDmoney",
+          "url": "https://indmoney.com/stocks/swaraj-suiting-ltd-share-price"
+        },
+        {
+          "name": "TradingView",
+          "url": "https://in.tradingview.com/symbols/NSE-SWARAJ"
+        },
+        {
+          "name": "Investing.com",
+          "url": "https://uk.investing.com/equities/swaraj-suiting"
+        },
+        {
+          "name": "MarketScreener",
+          "url": "https://marketscreener.com/quote/stock/SWARAJ-SUITING-LIMITED-135486324"
+        }
+      ]
+    },
+    "DHAMPURSUG": {
+      "checked": "2026-11-27",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "The newest broker reports found are from 2023 (e.g. Hem Securities Buy at 295), too old to count. TradingView's single undated estimate could not be tied to a report.",
+      "sources": [
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/post/DHAMPURSUG/325/dhampur-sugar-mills-ltd"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/dhampursug/forecast"
+        },
+        {
+          "name": "TradingView (BSE)",
+          "url": "https://in.tradingview.com/symbols/BSE-DHAMPURSUG/forecast"
+        },
+        {
+          "name": "TradingView (NSE)",
+          "url": "https://in.tradingview.com/symbols/NSE-DHAMPURSUG/forecast/"
+        }
+      ]
+    },
+    "UTTAMSUGAR": {
+      "checked": "2026-11-27",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No analyst coverage found: Trendlyne lists no broker reports, Sharpely and Alpha Spread show no targets, and TradingView has only technical signals and user ideas.",
+      "sources": [
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/post/UTTAMSUGAR/1459/uttam-sugar-mills-ltd/"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/uttamsugar/forecast"
+        },
+        {
+          "name": "Alpha Spread analyst estimates",
+          "url": "https://www.alphaspread.com/security/nse/uttamsugar/analyst-estimates"
+        },
+        {
+          "name": "TradingView",
+          "url": "https://in.tradingview.com/symbols/NSE-UTTAMSUGAR"
+        }
+      ]
+    },
+    "FINEORG": {
+      "checked": "2026-11-27",
+      "n": 11,
+      "rating": "buy",
+      "tMean": 5517,
+      "tLow": 4007,
+      "tHigh": 6761,
+      "asOf": "2026-11",
+      "brokers": "Prabhudas Lilladher, ICICI Direct, Anand Rathi, Motilal Oswal",
+      "note": "11 analysts lean Buy (7 Strong Buy, 2 Buy, 2 Strong Sell). PL raised its target to 6761 in Nov 2026 while Motilal Oswal stays at Sell.",
+      "sources": [
+        {
+          "name": "StockAnalysis",
+          "url": "https://stockanalysis.com/quote/nse/FINEORG/forecast/"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/92286/FINEORG/fine-organic-industries-ltd"
+        },
+        {
+          "name": "TradingView",
+          "url": "https://in.tradingview.com/symbols/NSE-FINEORG/forecast"
+        },
+        {
+          "name": "PL Capital report 4 Nov 2026",
+          "url": "https://www.plindia.com/ResReport/FINEORG-4-11-26-PL.pdf"
+        }
+      ]
+    },
+    "KPRMILL": {
+      "checked": "2026-11-27",
+      "n": 13,
+      "rating": "buy",
+      "tMean": 1276.85,
+      "tLow": 1021,
+      "tHigh": 1400,
+      "asOf": "2026-11",
+      "brokers": "ICICI Direct, Motilal Oswal, JM Financial, PL Capital",
+      "note": "Investing.com consensus has 13 analysts (11 Buy, 2 Hold) with an average target near 1277. ICICI Direct lifted its target to 1400 on 12 Nov 2026, while Motilal Oswal rates it Neutral at 1200.",
+      "sources": [
+        {
+          "name": "Investing.com consensus",
+          "url": "https://in.investing.com/equities/kpr-mill-ltd-consensus-estimates"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/post/KPRMILL/764/kpr-mill-ltd/"
+        },
+        {
+          "name": "PL Capital report",
+          "url": "https://plindia.com/ResReport/KPR-29-10-26-PL.pdf"
+        }
+      ]
+    },
+    "NAVINFLUOR": {
+      "checked": "2026-11-27",
+      "n": 28,
+      "rating": "buy",
+      "tMean": 8957.66,
+      "tLow": 4700,
+      "tHigh": 11100,
+      "asOf": "2026-11",
+      "brokers": "IDBI Capital, Anand Rathi, Motilal Oswal, Axis, Jefferies, Ambit, Equirus",
+      "note": "Rated Outperform by 28 analysts, but the average target is about 13% below the price after a strong rally.",
+      "sources": [
+        {
+          "name": "MarketScreener consensus",
+          "url": "https://www.marketscreener.com/quote/stock/NAVIN-FLUORINE-INTERNATIO-46730278/consensus/"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/914/NAVINFLUOR/navin-fluorine-international-ltd"
+        },
+        {
+          "name": "Business Today (Aug 2026 broker targets)",
+          "url": "https://www.businesstoday.in/markets/stocks/story/navin-fluorine-rises-8-ambit-most-bullish-at-rs-9600-equirus-most-bearish-at-rs-4700-547549-2026-08-06"
+        },
+        {
+          "name": "TradingView",
+          "url": "https://in.tradingview.com/symbols/NSE-NAVINFLUOR/forecast"
+        }
+      ]
+    },
+    "NINSYS": {
+      "checked": "2026-11-27",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No broker coverage found: Trendlyne lists no reports, Alpha Spread shows no price targets, and Investing.com's target section is paywalled with nothing visible.",
+      "sources": [
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/post/NINSYS/4369/nintec-systems-ltd/"
+        },
+        {
+          "name": "Alpha Spread analyst estimates",
+          "url": "https://www.alphaspread.com/security/nse/ninsys/analyst-estimates"
+        },
+        {
+          "name": "Investing.com consensus",
+          "url": "https://uk.investing.com/equities/nintec-systems-ltd-consensus-estimates"
+        }
+      ]
+    },
+    "NYKAA": {
+      "checked": "2026-11-27",
+      "n": 26,
+      "rating": "buy",
+      "tMean": 361.08,
+      "tLow": 220,
+      "tHigh": 431,
+      "asOf": "2026-11",
+      "brokers": "Nomura, Jefferies, Elara, Kotak, Ventura, J.P. Morgan, Morgan Stanley, HDFC Securities",
+      "note": "26 analysts with a positive but split view (14 Buy, 6 Hold, 6 Sell). The average target is just above the price.",
+      "sources": [
+        {
+          "name": "Investing.com consensus",
+          "url": "https://ca.investing.com/equities/fsn-ecommerce-ventures-consensus-estimates"
+        },
+        {
+          "name": "MarketScreener consensus",
+          "url": "https://Marketscreener.com/quote/stock/FSN-E-COMMERCE-VENTURES-L-129226164/consensus/"
+        },
+        {
+          "name": "TradingView",
+          "url": "https://in.tradingview.com/symbols/NSE-NYKAA/forecast"
+        },
+        {
+          "name": "StockAnalysis",
+          "url": "https://stockanalysis.com/quote/nse/NYKAA/forecast/"
+        }
+      ]
+    },
+    "PANACHE": {
+      "checked": "2026-11-27",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No analyst coverage found on Trendlyne (zero reports) or Sharpely (no active ratings or targets); the stock is on NSE's ESM-II surveillance list.",
+      "sources": [
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/post/PANACHE/87776/panache-digilife-ltd/"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/panache/forecast"
+        }
+      ]
+    },
+    "COMSYN": {
+      "checked": "2026-11-27",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No analyst coverage found: Trendlyne shows no broker reports and Sharpely has no active ratings or targets.",
+      "sources": [
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/4742/COMSYN/commercial-syn-bags-ltd"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/comsyn/forecast"
+        }
+      ]
+    },
+    "DYNAMATECH": {
+      "checked": "2026-11-27",
+      "n": 2,
+      "rating": "hold",
+      "tMean": 13227.5,
+      "tLow": 11115,
+      "tHigh": 15340,
+      "asOf": "2026-11",
+      "brokers": "ICICI Securities, ICICI Direct",
+      "note": "Only two current views, and they clash: ICICI Securities Sell at 11115 (Nov 2026) and ICICI Direct Buy at 15340 (Sep 2026). Recorded as Hold with the simple average.",
+      "sources": [
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/351/DYNAMATECH/dynamatic-technologies-ltd"
+        },
+        {
+          "name": "Investing.com consensus",
+          "url": "https://in.investing.com/equities/dynamatic-technologies-consensus-estimates"
+        },
+        {
+          "name": "TradingView",
+          "url": "https://in.tradingview.com/symbols/NSE-DYNAMATECH/forecast"
+        }
+      ]
+    },
+    "GLAND": {
+      "checked": "2026-11-27",
+      "n": 14,
+      "rating": "buy",
+      "tMean": 3271.07,
+      "tLow": 2180,
+      "tHigh": 3920,
+      "asOf": "2026-11",
+      "brokers": "Axis Direct, Motilal Oswal, ICICI Direct, Nomura, Jefferies, Goldman Sachs",
+      "note": "Investing.com shows 14 analysts (10 Buy, 4 Sell) with an average target slightly below the current price. TradingView has a similar average (3269) from 16 analysts but labels the consensus Neutral.",
+      "sources": [
+        {
+          "name": "Investing.com consensus",
+          "url": "https://ca.investing.com/equities/gland-pharma-consensus-estimates"
+        },
+        {
+          "name": "TradingView",
+          "url": "https://www.tradingview.com/symbols/NSE-GLAND/forecast"
+        },
+        {
+          "name": "InvestmentGuruIndia (Axis Direct TP 3890)",
+          "url": "https://investmentguruindia.com/newsdetail/buy-gland-pharma-ltd-for-target-rs-3-890-by-axis-direct912665"
+        }
+      ]
+    },
+    "GULFOILLUB": {
+      "checked": "2026-11-27",
+      "n": 5,
+      "rating": "strong_buy",
+      "tMean": 1634,
+      "tLow": 1515,
+      "tHigh": 1900,
+      "asOf": "2026-11",
+      "brokers": "ICICI Securities, Choice Institutional Equities, Systematix",
+      "note": "All five analysts in the S&P Global poll are bullish, with an average target about 42% above the price; Trendlyne's 28 Nov consensus (1633.6) matches. ICICI Securities' last dated Buy was 1585 (Aug 2026).",
+      "sources": [
+        {
+          "name": "StockAnalysis",
+          "url": "https://stockanalysis.com/quote/nse/GULFOILLUB/forecast/"
+        },
+        {
+          "name": "Trendlyne research reports",
+          "url": "https://trendlyne.com/research-reports/stock/518/GULFOILLUB/gulf-oil-lubricants-india-ltd"
+        },
+        {
+          "name": "InvestmentGuruIndia (Choice TP 1525)",
+          "url": "https://investmentguruindia.com/newsdetail/buy-gulf-oil-lubricants-ltd-for-target-rs-1-525-by-choice-institutional-equities-ltd303638"
+        }
+      ]
+    },
+    "HONASA": {
+      "checked": "2026-11-27",
+      "n": 16,
+      "rating": "buy",
+      "tMean": 582.56,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": "2026-11",
+      "brokers": "ICICI Securities, HDFC Securities, Jefferies, J.P. Morgan, Emkay, HSBC, Goldman Sachs, Kotak",
+      "note": "Trendlyne's Nov 2026 consensus is 582.56; the count of 16 is from the older S&P poll (Aug 2026). Post-Q2 views range from J.P. Morgan Sell at 410 to ICICI Securities Buy at 750.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/stock/1769048/HONASA/honasa-consumer-ltd"
+        },
+        {
+          "name": "Investing.com",
+          "url": "https://in.investing.com/equities/honasa-consumer-consensus-estimates"
+        },
+        {
+          "name": "StockAnalysis",
+          "url": "https://stockanalysis.com/quote/nse/HONASA/forecast/"
+        },
+        {
+          "name": "HDFC Securities",
+          "url": "https://www.hdfcsec.com/hsl.docs//Honasa - Q2FY27 - HSIE-202611071753358555033.pdf?t=09112026060147147"
+        }
+      ]
+    },
+    "MAXESTATES": {
+      "checked": "2026-11-27",
+      "n": 5,
+      "rating": "strong_buy",
+      "tMean": 696,
+      "tLow": 545,
+      "tHigh": 750,
+      "asOf": "2026-11",
+      "brokers": "ICICI Direct",
+      "note": "All 5 analysts in the S&P poll rate it Strong Buy. ICICI Direct raised its Buy target to 750 on 23 Nov 2026.",
+      "sources": [
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/1771763/MAXESTATES/max-estates-ltd/"
+        },
+        {
+          "name": "Trendlyne reports",
+          "url": "https://trendlyne.com/research-reports/stock/1771763/MAXESTATES/max-estates-ltd/"
+        },
+        {
+          "name": "StockAnalysis",
+          "url": "https://stockanalysis.com/quote/nse/MAXESTATES/forecast/"
+        }
+      ]
+    },
+    "PNBHOUSING": {
+      "checked": "2026-11-27",
+      "n": 13,
+      "rating": "strong_buy",
+      "tMean": 1332,
+      "tLow": 960,
+      "tHigh": 1425,
+      "asOf": "2026-11",
+      "brokers": "Motilal Oswal, Emkay, ICICI Securities, Morgan Stanley, UBS",
+      "note": "13 analysts, almost all Buy or Strong Buy. Motilal Oswal's newer 1500 target (Nov 2026) is above the published range.",
+      "sources": [
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/4826/PNBHOUSING/pnb-housing-finance-ltd"
+        },
+        {
+          "name": "Trendlyne reports",
+          "url": "https://trendlyne.com/research-reports/stock/4826/PNBHOUSING/pnb-housing-finance-ltd"
+        },
+        {
+          "name": "StockAnalysis",
+          "url": "https://stockanalysis.com/quote/nse/PNBHOUSING/forecast/"
+        }
+      ]
+    },
+    "SAMBHV": {
+      "checked": "2026-11-27",
+      "n": 1,
+      "rating": "buy",
+      "tMean": 210,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": "2026-11",
+      "brokers": "Choice Institutional Equities",
+      "note": "Only Choice Institutional Equities has a current target (Buy at 210, Oct-Nov 2026). An older BP Wealth Buy at 107 (Feb 2026) is already below the price and was left out.",
+      "sources": [
+        {
+          "name": "Choice report via InvestmentGuruIndia",
+          "url": "https://investmentguruindia.com/editorial/uploads/news-pdf/935e4e59_research-report - 2026-10-31T112144.387.pdf"
+        },
+        {
+          "name": "Choice sector report via InvestmentGuruIndia",
+          "url": "https://investmentguruindia.com/editorial/uploads/news-pdf/423a4e91_research-report - 2026-11-18T093914.028.pdf"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/stock/3148899/SAMBHV/sambhv-steel-tubes-ltd"
+        },
+        {
+          "name": "TipRanks",
+          "url": "https://www.tipranks.com/stocks/in:sambhv/forecast"
+        }
+      ]
+    },
+    "ACUTAAS": {
+      "checked": "2026-11-27",
+      "n": 9,
+      "rating": "buy",
+      "tMean": 3744,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": "2026-11",
+      "brokers": "PL Capital, HDFC Securities, JM Financial, Kotak",
+      "note": "The 9-analyst consensus sits about 8% below the price after the post-Q2 rally. Views are split, from HDFC Securities Sell at 2210 to PL Capital Buy at 4693.",
+      "sources": [
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/644637/ACUTAAS/acutaas-chemicals-ltd/"
+        },
+        {
+          "name": "StockAnalysis",
+          "url": "https://stockanalysis.com/quote/nse/ACUTAAS/forecast/"
+        },
+        {
+          "name": "PL Capital",
+          "url": "https://www.plindia.com/pl-research/acutaas-chemicals-acutaas-in-q2fy27-result-update-long-term-growth-outlook-intact-buy/"
+        },
+        {
+          "name": "HDFC Securities",
+          "url": "https://www.hdfcsec.com/hsl.docs//Acutaas - Update - Sep26 - HSIE-202609211504107364255.pdf?t=280920262213361336"
+        }
+      ]
+    },
+    "AGARWALEYE": {
+      "checked": "2026-11-27",
+      "n": 6,
+      "rating": "strong_buy",
+      "tMean": 608,
+      "tLow": 555,
+      "tHigh": 652,
+      "asOf": "2026-11",
+      "brokers": "Motilal Oswal, Kotak",
+      "note": "Trendlyne's consensus is about 608 from 6 analysts. The S&P Global count for Nov 2026 is 4 Strong Buy and 2 Buy, with targets from 555 to 652. The current price is only a little below the consensus.",
+      "sources": [
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/2949904/AGARWALEYE/dr-agarwals-health-care-ltd"
+        },
+        {
+          "name": "Trendlyne reports",
+          "url": "https://trendlyne.com/research-reports/stock/2949904/AGARWALEYE/dr-agarwals-health-care-ltd"
+        },
+        {
+          "name": "StockAnalysis",
+          "url": "https://stockanalysis.com/quote/bom/544350/forecast/"
+        }
+      ]
+    },
+    "BALUFORGE": {
+      "checked": "2026-11-27",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No broker coverage was found. TipRanks lists only AI-model forecasts, which are excluded. Alpha Spread and Trendlyne show no analyst targets, and Trendlyne has only user votes.",
+      "sources": [
+        {
+          "name": "TipRanks",
+          "url": "https://www.tipranks.com/stocks/in:baluforge/forecast"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/bse/531112/analyst-estimates"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/post/BALUFORGE/3465/balu-forge-industries-ltd"
+        }
+      ]
+    },
+    "FLUOROCHEM": {
+      "checked": "2026-11-27",
+      "n": 17,
+      "rating": "buy",
+      "tMean": 4869,
+      "tLow": 3000,
+      "tHigh": 5800,
+      "asOf": "2026-11",
+      "brokers": "ICICI Securities, ICICI Direct, Deven Choksey, Prabhudas Lilladher",
+      "note": "17 analysts, mixed but leaning Buy (3 are Sell or Strong Sell). The average target is close to the current price.",
+      "sources": [
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/169265/FLUOROCHEM/gujarat-fluorochemicals-ltd/"
+        },
+        {
+          "name": "Trendlyne reports",
+          "url": "https://trendlyne.com/research-reports/stock/169265/FLUOROCHEM/gujarat-fluorochemicals-ltd"
+        },
+        {
+          "name": "StockAnalysis",
+          "url": "https://stockanalysis.com/quote/nse/FLUOROCHEM/forecast/"
+        }
+      ]
+    },
+    "MOTHERSON": {
+      "checked": "2026-11-27",
+      "n": 22,
+      "rating": "buy",
+      "tMean": 185,
+      "tLow": 115,
+      "tHigh": 210,
+      "asOf": "2026-11",
+      "brokers": "J.P. Morgan, Citi, CLSA",
+      "note": "Trendlyne's consensus is 185 from 22 analysts. The S&P Global consensus is Buy, with a mean of 174.95 and a range of 115-210 (Oct 2026). These targets are on the share base after the 2025 bonus, which matches the current price.",
+      "sources": [
+        {
+          "name": "Trendlyne consensus",
+          "url": "https://trendlyne.com/equity/consensus-estimates/878/MOTHERSON/samvardhana-motherson-international-ltd/"
+        },
+        {
+          "name": "StockAnalysis",
+          "url": "https://stockanalysis.com/quote/nse/MOTHERSON/forecast/"
+        }
+      ]
+    },
+    "NPST": {
+      "checked": "2026-11-27",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No current broker targets were found. Sharpely and Trendlyne show no analyst estimates, and TipRanks lists only AI models.",
+      "sources": [
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/npst/forecast"
+        },
+        {
+          "name": "TipRanks",
+          "url": "https://www.tipranks.com/stocks/in:npst/forecast"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/equity/consensus-estimates/609381/NPST/network-people-services-technologies-ltd/"
+        }
+      ]
+    },
+    "TANFACIND": {
+      "checked": "2026-11-27",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No analyst coverage was found. Trendlyne lists no research reports, and Sharpely and Alpha Spread have no targets.",
+      "sources": [
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/stock/1349/TANFACIND/tanfac-industries-ltd/"
+        },
+        {
+          "name": "Sharpely",
+          "url": "https://sharpely.in/stocks/tanfacind/forecast"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/bse/506854/analyst-estimates"
+        }
+      ]
+    },
+    "WEWORK": {
+      "checked": "2026-11-27",
+      "n": 9,
+      "rating": "strong_buy",
+      "tMean": 883.89,
+      "tLow": 791,
+      "tHigh": 995,
+      "asOf": "2026-11",
+      "brokers": "ICICI Securities, Jefferies, Kotak, BOB Capital Markets",
+      "note": "The Investing.com (S&P Global) consensus has 9 Buy ratings, a mean of 883.89 and a range of 791-995; its latest listed action is from Sep 2026. ICICI Securities repeated Buy with a 933 target on 12 Nov 2026.",
+      "sources": [
+        {
+          "name": "Investing.com",
+          "url": "https://uk.investing.com/equities/wework-india-management-consensus-estimates"
+        },
+        {
+          "name": "StockAnalysis",
+          "url": "https://stockanalysis.com/quote/nse/WEWORK/forecast/"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/research-reports/stock/3279321/WEWORK/wework-india-management-ltd"
+        }
+      ]
+    },
+    "SUBEXLTD": {
+      "checked": "2026-11-27",
+      "n": 0,
+      "rating": null,
+      "tMean": null,
+      "tLow": null,
+      "tHigh": null,
+      "asOf": null,
+      "note": "No broker coverage was found. TipRanks shows only AI-model entries, and Alpha Spread and Trendlyne show no analyst targets.",
+      "sources": [
+        {
+          "name": "TipRanks",
+          "url": "https://www.tipranks.com/stocks/in:subexltd/forecast"
+        },
+        {
+          "name": "Alpha Spread",
+          "url": "https://www.alphaspread.com/security/nse/subexltd/analyst-estimates"
+        },
+        {
+          "name": "Trendlyne",
+          "url": "https://trendlyne.com/equity/consensus-estimates/1301/SUBEXLTD/subex-ltd/"
         }
       ]
     }
